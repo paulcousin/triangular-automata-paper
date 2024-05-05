@@ -338,20 +338,59 @@ Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-perspective.jpg}
-    \caption{Space-time plot of rule 10 up to $t=512$ (perspective)}
+    \caption{Space-time plot of rule 10 up to $t=512$}
     \label{fig:rule-10-perspective}
 \end{figure}
 
+% \pagebreak
+% \ \\
+% \vspace{1cm}
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-orthographic.jpg}
+%     \caption{Space-time plot of rule 10 up to $t=512$ (orthographic)}
+%     \label{fig:rule-10-orthographic}
+% \end{figure}
+
+
+
 \pagebreak
-\ \\
-\vspace{1cm}
+\subsection{Center Column} \label{center-column}
+\noindent There are a few rules where the state of the first alive cell evolves in an interesting way. This succession of states forms the center column of the space-time plots.
+\vspace{40pt}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-orthographic.jpg}
-    \caption{Space-time plot of rule 10 up to $t=512$ (orthographic)}
-    \label{fig:rule-10-orthographic}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf}
+        \caption{Rule 37 (OEIS \href{https://oeis.org/A371844}{A371844})}
+        \label{fig:rule-37-center_column_plot-4096}
+    \end{subfigure}
+    \vspace{16pt}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf}
+        \caption{Rule 61 (OEIS \href{https://oeis.org/A372553}{A372553})}
+        \label{fig:rule-61-center_column_plot-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf}
+        \caption{Rule 62 (OEIS \href{https://oeis.org/A371931}{A371931})}
+        \label{fig:rule-62-center_column_plot-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf}
+        \caption{Rule 94 (OEIS \href{https://oeis.org/A372552}{A372552})}
+        \label{fig:rule-94-center_column_plot-4096}
+    \end{subfigure}
+       \caption{Center columns $1\leq t \leq 4096$ (read left-right top-down)}
+       \label{fig:center-columns}
 \end{figure}
+
 
 \pagebreak
 \subsection{Self-Reproduction} \label{self-reproduction}
@@ -362,7 +401,7 @@ As mentioned in \cite{saadatCopyMachinesSelfreproduction2023}, one of the origin
 
 \begin{table}[H]
     \centering
-    \begin{tblr}{|Q[c,m]|Q[c,h]|Q[c,h]|Q[c,h]|Q[c,h]|}
+    \begin{tblr}{|Q[c,m]|Q[c,h] Q[c,h] Q[c,h] Q[c,h]|}
         \hline
             t & rule 85 & rule 90 & rule 165 & rule 170 \\
         \hline
@@ -371,36 +410,103 @@ As mentioned in \cite{saadatCopyMachinesSelfreproduction2023}, one of the origin
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-90-time-0.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-165-time-0.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-0.pdf}} \\
-        \hline
             16 &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-85-time-16.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-90-time-16.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-165-time-16.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-16.pdf}} \\
-        \hline
             32 &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-85-time-32.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-90-time-32.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-165-time-32.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-32.pdf}} \\
-        \hline
             48 &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-85-time-48.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-90-time-48.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-165-time-48.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-48.pdf}} \\
-        \hline
             112 &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-85-time-112.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-90-time-112.pdf}} &
             \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-165-time-112.pdf}} &
-            \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-112.pdf}} \\
+            \raisebox{-.05\height}{\includegraphics[width=0.19\textwidth]{graphics/behavior/self-reproduction/rule-170-time-112.pdf}} \vspace{0pt} \\ 
         \hline
     \end{tblr}
     \caption{Pattern self-reproduction from a recognizable starting point}
     \label{tab:my_label}
 \end{table}
 
+
+\pagebreak
+\subsection{Rule 210} \label{rule-210}
+Rule 210 is easy to describe: ``change the state of cells who have one neighbor alive". It is special for several reasons. It makes structures at larger scales as time goes on and a new type of structure emerges around $t=1024$.
+
+
+\begin{table}[H]
+    \centering
+    \begin{tblr}{c c c c c}
+            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-256.jpg}} &
+            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-512.jpg}} &
+            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-1024.jpg}} &
+            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-2048.jpg}} &
+            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-4096.jpg}} \\
+            % 256 & 512 & 1024 & 2048 & 4096 \\
+            
+            \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-257.jpg}} &
+            \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-513.jpg}} &
+            \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-1025.jpg}} &
+            \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-2049.jpg}} &
+            \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-4097.jpg}} \\
+            257 & 513 & 1025 & 2049 & 4097 \\
+            
+    \end{tblr}
+    \caption{Evolution of rule 210}
+    \label{tab:rule-210-evolution}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.85\textwidth]{graphics/behavior/rule-210/rule-210-time-4097-small.jpg}
+    \caption{Rule 210 at $t=4097$ with enhanced constrat}
+    \label{fig:rule-210-time-4097}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-2048-close-up-3.jpg}
+    \vspace{-16pt}
+    \caption{Close-up of rule 210 at $t=2048$}
+    \label{fig:rule-210-close-up-2048}
+\end{figure}
+\vspace{-10pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-4096-close-up-2.jpg}
+    \vspace{-16pt}
+    \caption{Close-up of rule 210 at $t=4096$}
+    \label{fig:rule-210-close-up-4096}
+\end{figure}
+
+\noindent Rule 210 initially alternates between what seems like 2 population densities (i.e. number of alive cells / size of the region of influence of the first cell). When the new structure appears, around $t=1024$, the population stabilizes into a density cycle of period 4 between slowly evolving values.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.51\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-population-plot.pdf}
+        \caption{Population (OEIS \href{https://oeis.org/A372581}{A372581})}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-density-plot.pdf}
+        \caption{Population density}
+    \end{subfigure}
+       \caption{Rule 210}
+       \label{fig:rule-210-population}
+\end{figure}
+
+
+\pagebreak
 \subsection{Noise} \label{noise}
 Some rules seem to generate a pretty good noise. For example, if we pick a simple starting point without symmetries, rule 37 will usually turn it into an expanding disk with a random-looking interior.
 
@@ -420,35 +526,36 @@ Some rules seem to generate a pretty good noise. For example, if we pick a simpl
     \label{fig:rule-37-time-512-asymmetric}
 \end{figure}
 
+
 \pagebreak
 \subsection{Textures} \label{textures}
 Organic textures can be obtained by applying other rules to this pseudorandom grid.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.66\textwidth]{graphics/behavior/textures/rule-204-time-32-noise.pdf}
-    \caption{Rule 204 at at $t=32$ starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
-    \label{fig:rule-204-time-32-noise}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.66\textwidth]{graphics/behavior/textures/rule-252-time-32-noise.pdf}
-    \caption{Rule 252 at at $t=32$ starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
-    \label{fig:rule-252-time-32-noise}
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-204-time-32-noise.pdf}
+        \caption{Rule 204 at at $t=32$}
+        \label{fig:rule-204-time-32-noise}
+    \end{subfigure}
+    \vspace{20pt}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
+        \caption{Rule 100 at at $t=64$}
+        \label{fig:rule-100-time-64-noise}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-108-time-512-noise.pdf}
+        \caption{Rule 108 at at $t=512$}
+        \label{fig:rule-108-time-512-noise}
+    \end{subfigure}
+       \caption{Starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
+       \label{fig:textures}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.72\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
-    \caption{Rule 100 at at $t=64$ starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
-    \label{fig:rule-100-time-64-noise}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.72\textwidth]{graphics/behavior/textures/rule-108-time-512-noise.pdf}
-    \caption{Rule 108 at at $t=512$ starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
-    \label{fig:rule-108-time-512-noise}
-\end{figure}
 
 \pagebreak
 \subsection{Boring Rules} \label{boring-rules}
@@ -499,8 +606,8 @@ A simple procedure can be followed to find the evil twin of a rule that has the 
         \label{fig:twins}
 \end{figure}
 
-\pagebreak
 
+\pagebreak
 \section{Implementation} \label{implementation}
 \subsection{Tools}
 % \noindent Let us start by defining a few useful operators and matrices.
@@ -774,10 +881,12 @@ Finally, the state of all vertices of the last layer (created in step 1) is set 
     \item[•] Evolving the state of the grid is where this framework pays off the most. Steps 2 and 3 are mathematically sufficient if we consider working in an infinite graph. They would also be the only steps required in a closed grid, like a triangulated surface \cite{zawidzkiApplicationSemitotalistic2D2011} for example.
     \item[•] For this process to be efficient, it is necessary to encode the grid/adjacency matrix in a sparse array format.
     \item[•] Step 1 can be avoided in the case where the three outermost layers have a uniform state, which is easy to check.
-    \item[•] It is useful here to be able to retrieve the number of layers in the graph, just by knowing its order. 
- \begin{equation}
- layer=\frac{1}{6}\Big(\sqrt{3(8\,order-5)}-3\Big)
- \end{equation}
+    \item[•] It is useful here to be able to retrieve the number of layers $l$ in the graph from its order $o$ and vice versa. 
+    \begin{equation}
+    l=\frac{1}{6}\Big(\sqrt{3(8\,o-5)}-3\Big)
+    \qquad\qquad
+    o=1+\frac{3}{2}\,l(l+1)
+    \end{equation}
     \item[•] It is also useful to note that each layer $l$ contains $3l$ vertices or cells (except when $l=0$).
 \end{enumerate}
 
@@ -874,29 +983,29 @@ The triangular tessellation plays an important role in many disciplines, from co
 \bibliographystyle{IEEEtran}
 \bibliography{refs.bib}
 
-\appendix
+% \appendix
 
-\captionsetup{labelfont={sf,bf}}
-\captionsetup[subfigure]{size=tiny,skip=2px}
-\newcounter{x}
-\newcounter{y}
-\newcounter{z}
-\foreach \n in {8, 16, 25, 32, 96, 128}{
-    \pagebreak
-    \begin{center}{\LARGE $t=\n$}\end{center}
-    \centering
-    \begin{figure}[H]
-            \forloop{x}{0}{\value{x} < 16}{
-                \hspace*{-0.125\textwidth}
-                \forloop{y}{0}{\value{y} < 16}{
-                    \setcounter{z}{16*\value{x}+\value{y}} \edef\z{\arabic{z}}
-                        \begin{subfigure}[b]{0.06\textwidth}
-                                \includegraphics[width=\textwidth,height=\textwidth]{graphics/appendix/rule-\z -time-\n .pdf}
-                                 \caption*{\arabic{z}}
-                        \end{subfigure} \hspace{-0.1\textwidth}
-                } \vspace{2.2px}\linebreak
-            }
-    \end{figure}   
-}
+% \captionsetup{labelfont={sf,bf}}
+% \captionsetup[subfigure]{size=tiny,skip=2px}
+% \newcounter{x}
+% \newcounter{y}
+% \newcounter{z}
+% \foreach \n in {8, 16, 25, 32, 96, 128}{
+%     \pagebreak
+%     \begin{center}{\LARGE $t=\n$}\end{center}
+%     \centering
+%     \begin{figure}[H]
+%             \forloop{x}{0}{\value{x} < 16}{
+%                 \hspace*{-0.125\textwidth}
+%                 \forloop{y}{0}{\value{y} < 16}{
+%                     \setcounter{z}{16*\value{x}+\value{y}} \edef\z{\arabic{z}}
+%                         \begin{subfigure}[b]{0.06\textwidth}
+%                                 \includegraphics[width=\textwidth,height=\textwidth]{graphics/appendix/rule-\z -time-\n .pdf}
+%                                  \caption*{\arabic{z}}
+%                         \end{subfigure} \hspace{-0.1\textwidth}
+%                 } \vspace{2.2px}\linebreak
+%             }
+%     \end{figure}   
+% }
 
 \end{document}
