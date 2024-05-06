@@ -164,7 +164,7 @@ ETA \textbf{rules} determine the future state of a cell based on its current sta
         \label{fig:configurations}
 \end{figure}
 
-This paper uses a graph-theoretical framework developed in a previous work on Graph-Rewriting Automata\cite{cousin2022organic}. The triangular grid will here be considered as a graph (\textit{Figure \ref{fig:structure-of-the-triangular-grid}}). This graph must be expanded at each time step to simulate an infinite grid. The \textbf{region of influence} of a single cell grows in hexagonal layers (\textit{Figure \ref{fig:layers}}). This is thus the most efficient way to expand the graph as well. How to do it in practice will be detailed in \textit{Section \ref{growing-the-grid}}.
+This paper uses a graph-theoretical framework developed in a previous work on Graph-Rewriting Automata\cite{cousin2022organic}. The triangular grid will here be considered as a graph (\textit{Figure \ref{fig:structure-of-the-triangular-grid}}). This graph must be expanded at each time step to simulate an infinite grid. The \textbf{region of influence} of a single cell grows in hexagonal layers (\textit{Figure \ref{fig:layers}}). This is therefore the most efficient way to expand the graph as well. How to do this in practice will be detailed in \textit{Section \ref{growing-the-grid}}.
 
 \begin{figure}[H]
      \centering
@@ -357,7 +357,7 @@ Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2
 
 \pagebreak
 \subsection{Center Column} \label{center-column}
-\noindent There are a few rules where the state of the first alive cell evolves in an interesting way. This succession of states forms the center column of the space-time plots.
+\noindent There are a few rules where the state of the first living cell evolves in an interesting way. This sequence of states forms the center column of the space-time plots.
 \vspace{40pt}
 
 \begin{figure}[H]
@@ -381,6 +381,7 @@ Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2
         \caption{Rule 62 (OEIS \href{https://oeis.org/A371931}{A371931})}
         \label{fig:rule-62-center_column_plot-4096}
     \end{subfigure}
+    \vspace{4pt}
     \begin{subfigure}[b]{0.49\textwidth}
         \centering
         \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf}
@@ -439,10 +440,10 @@ As mentioned in \cite{saadatCopyMachinesSelfreproduction2023}, one of the origin
 
 \pagebreak
 \subsection{Rule 210} \label{rule-210}
-Rule 210 is easy to describe: ``change the state of cells who have one neighbor alive". It is special for several reasons. It makes structures at larger scales as time goes on and a new type of structure emerges around $t=1024$.
+Rule 210 is easy to describe: ``change the state of cells that have one neighbor alive". It is special for several reasons: it creates larger structures as time goes on and a new type of structure appears from around $t=1024$.
 
 
-\begin{table}[H]
+\begin{figure}[H]
     \centering
     \begin{tblr}{c c c c c}
             % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-256.jpg}} &
@@ -460,20 +461,20 @@ Rule 210 is easy to describe: ``change the state of cells who have one neighbor 
             257 & 513 & 1025 & 2049 & 4097 \\
             
     \end{tblr}
-    \caption{Evolution of rule 210}
+    \caption{Rule 210 at $t=2^i +1$ (the structure is best seen on odd time steps from afar)}
     \label{tab:rule-210-evolution}
-\end{table}
+\end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.85\textwidth]{graphics/behavior/rule-210/rule-210-time-4097-small.jpg}
+    \includegraphics[width=.85\textwidth]{graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg}
     \caption{Rule 210 at $t=4097$ with enhanced constrat}
     \label{fig:rule-210-time-4097}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-2048-close-up-3.jpg}
+    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg}
     \vspace{-16pt}
     \caption{Close-up of rule 210 at $t=2048$}
     \label{fig:rule-210-close-up-2048}
@@ -481,13 +482,13 @@ Rule 210 is easy to describe: ``change the state of cells who have one neighbor 
 \vspace{-10pt}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-4096-close-up-2.jpg}
+    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-4096-close-up.jpg}
     \vspace{-16pt}
     \caption{Close-up of rule 210 at $t=4096$}
     \label{fig:rule-210-close-up-4096}
 \end{figure}
 
-\noindent Rule 210 initially alternates between what seems like 2 population densities (i.e. number of alive cells / size of the region of influence of the first cell). When the new structure appears, around $t=1024$, the population stabilizes into a density cycle of period 4 between slowly evolving values.
+\noindent Rule 210 initially alternates between what seems like 2 population densities (i.e. number of living cells / size of the first cell's region of influence). When the new structure appears, around $t=1024$, the population stabilizes in a density cycle of period 4 between slowly evolving values.
 
 \begin{figure}[H]
     \centering
@@ -501,8 +502,8 @@ Rule 210 is easy to describe: ``change the state of cells who have one neighbor 
         \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-density-plot.pdf}
         \caption{Population density}
     \end{subfigure}
-       \caption{Rule 210}
-       \label{fig:rule-210-population}
+       \caption{Evolution of two coarse-grained values under rule 210}
+       \label{fig:rule-210-coarse-grained}
 \end{figure}
 
 
@@ -552,6 +553,7 @@ Organic textures can be obtained by applying other rules to this pseudorandom gr
         \caption{Rule 108 at at $t=512$}
         \label{fig:rule-108-time-512-noise}
     \end{subfigure}
+        \vspace{-10pt}
        \caption{Starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
        \label{fig:textures}
 \end{figure}
@@ -983,29 +985,29 @@ The triangular tessellation plays an important role in many disciplines, from co
 \bibliographystyle{IEEEtran}
 \bibliography{refs.bib}
 
-% \appendix
+\appendix
 
-% \captionsetup{labelfont={sf,bf}}
-% \captionsetup[subfigure]{size=tiny,skip=2px}
-% \newcounter{x}
-% \newcounter{y}
-% \newcounter{z}
-% \foreach \n in {8, 16, 25, 32, 96, 128}{
-%     \pagebreak
-%     \begin{center}{\LARGE $t=\n$}\end{center}
-%     \centering
-%     \begin{figure}[H]
-%             \forloop{x}{0}{\value{x} < 16}{
-%                 \hspace*{-0.125\textwidth}
-%                 \forloop{y}{0}{\value{y} < 16}{
-%                     \setcounter{z}{16*\value{x}+\value{y}} \edef\z{\arabic{z}}
-%                         \begin{subfigure}[b]{0.06\textwidth}
-%                                 \includegraphics[width=\textwidth,height=\textwidth]{graphics/appendix/rule-\z -time-\n .pdf}
-%                                  \caption*{\arabic{z}}
-%                         \end{subfigure} \hspace{-0.1\textwidth}
-%                 } \vspace{2.2px}\linebreak
-%             }
-%     \end{figure}   
-% }
+\captionsetup{labelfont={sf,bf}}
+\captionsetup[subfigure]{size=tiny,skip=2px}
+\newcounter{x}
+\newcounter{y}
+\newcounter{z}
+\foreach \n in {2, 4, 8, 16, 32, 64}{
+    \pagebreak
+    \begin{center}{\LARGE $t=\n$}\end{center}
+    \centering
+    \begin{figure}[H]
+            \forloop{x}{0}{\value{x} < 16}{
+                \hspace*{-0.125\textwidth}
+                \forloop{y}{0}{\value{y} < 16}{
+                    \setcounter{z}{16*\value{x}+\value{y}} \edef\z{\arabic{z}}
+                        \begin{subfigure}[b]{0.06\textwidth}
+                                \includegraphics[width=\textwidth,height=\textwidth]{graphics/appendix/rule-\z -time-\n .pdf}
+                                 \caption*{\arabic{z}}
+                        \end{subfigure} \hspace{-0.1\textwidth}
+                } \vspace{2.2px}\linebreak
+            }
+    \end{figure}   
+}
 
 \end{document}
