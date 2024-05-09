@@ -4,16 +4,11 @@
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{textcomp}
-\usepackage{xcolor}
 \usepackage[justification=centering]{caption}
 \usepackage[justification=centering]{subcaption}
 \usepackage[font=footnotesize]{caption}
 \usepackage{float}
 \usepackage{pifont}
-\usepackage{xcolor}
-\definecolor{Alive}{rgb}{0.5, 0, 0.5}
-\definecolor{Dead}{rgb}{1, 0.5, 0}
-\definecolor{Links}{HTML}{7A0022}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{multicol}
@@ -22,6 +17,8 @@
 \usepackage{forloop}
 \usepackage{pgffor}
 \usepackage{stackengine}
+\usepackage{xcolor}
+\definecolor{Links}{HTML}{7A0022}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -50,8 +47,7 @@
 \Large The 256 Elementary Cellular Automata of the 2D Plane}
 
 \author{Paul Cousin \\
-        \small \href{https://orcid.org/0000-0002-3866-7615}{https://orcid.org/0000-0002-3866-7615} \\
-        \small France
+        \small Université Paris Cité, France
 }
 
 \date{}
@@ -64,7 +60,7 @@ Triangular Automata (TA) stands for cellular automata in the triangular grid. Th
 
 \keywords{cellular automata, triangular grid, dynamical systems, complexity.}
 
-\bigskip
+\vspace{20pt}
 
 \section{Preamble} \label{preamble}
 This paper comes with a website where you can interactively explore the 256 cellular automata presented here (including through different kinds of animations), as well as an easy-to-use Mathematica package.
@@ -388,7 +384,7 @@ Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2
         \caption{Rule 94 (OEIS \href{https://oeis.org/A372552}{A372552})}
         \label{fig:rule-94-center_column_plot-4096}
     \end{subfigure}
-       \caption{Center columns $1\leq t \leq 4096$ (read left-right top-down)}
+       \caption{Center columns $1\leq t \leq 4096$ (read left-to-right, top-to-bottom)}
        \label{fig:center-columns}
 \end{figure}
 
@@ -594,7 +590,7 @@ A simple procedure can be followed to find the evil twin of a rule that has the 
      \begin{subfigure}[b]{0.48\textwidth}
          \centering
          \includegraphics[width=\textwidth]{graphics/behavior/twins/rule-214-OneAlive.pdf}
-         \caption{rule 214 from one alive cell at $t=128$}
+         \caption{rule 214 from one living cell at $t=128$}
          \label{fig:twin-1}
      \end{subfigure}
      \hspace{0.02\textwidth}
