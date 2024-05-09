@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1715246026 "main.aux" "main.bbl" "main" 1715246168
+["bibtex main"] 1715246026 "main.aux" "main.bbl" "main" 1715251921
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1715246166 17180 56932235136918d97a8bb6c5f963bbd6 "pdflatex"
+  "main.aux" 1715251917 17180 56932235136918d97a8bb6c5f963bbd6 "pdflatex"
   "refs.bib" 1714208833 10797 50341ea88c7a36d28db20657795504c7 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1715246156 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1715246168
-  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1715246155 42865 c39aa86658dd7ebd3394a3d810f31f79 ""
+["pdflatex"] 1715251901 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1715251921
+  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1715251900 42911 6ad2661c6430c46b6a7a5cb1749c63b7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -1792,10 +1792,10 @@
   "graphics/introduction/purple.pdf" 1714200534 1018 1290266bf44846af980136ffa566d601 ""
   "graphics/introduction/rule-plot-181.pdf" 1714200534 6102 17ea873cfbaa1b32daf76350f69059cb ""
   "graphics/introduction/white.pdf" 1714200534 1052 c5373706cc11b34cd0c753aefd2bd146 ""
-  "main.aux" 1715246166 17180 56932235136918d97a8bb6c5f963bbd6 "pdflatex"
+  "main.aux" 1715251917 17180 56932235136918d97a8bb6c5f963bbd6 "pdflatex"
   "main.bbl" 1715246027 6510 c61615c91af5d7bc79736e774344ff65 "bibtex main"
-  "main.out" 1715246166 2203 641c7881a784a779e1a8ac1f9ac6fab7 "pdflatex"
-  "main.tex" 1715246155 42865 c39aa86658dd7ebd3394a3d810f31f79 ""
+  "main.out" 1715251917 2203 641c7881a784a779e1a8ac1f9ac6fab7 "pdflatex"
+  "main.tex" 1715251900 42911 6ad2661c6430c46b6a7a5cb1749c63b7 ""
   (generated)
   "main.aux"
   "main.log"
