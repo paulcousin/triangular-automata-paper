@@ -55,20 +55,10 @@
 \maketitle
 
 \begin{abstract}
-Triangular Automata (TA) stands for cellular automata in the triangular grid. This work focuses on the simplest type of TA called Elementary Triangular Automata (ETA). They are argued to be the two-dimensional counterpart of Wolfram's Elementary Cellular Automata. Conceptual and computational tools for their study are presented along with an initial analysis. The paper is accompanied by a website where the results can be explored interactively. The source code is available in the form of a Mathematica package. \smallskip
+Triangular Automata (TA) stands for cellular automata in the triangular grid. This work focuses on the simplest type of TA called Elementary Triangular Automata (ETA). They are argued to be the two-dimensional counterpart of Wolfram's Elementary Cellular Automata. Conceptual and computational tools for their study are presented along with an initial analysis. The paper is accompanied by a website where the results can be explored interactively\footnote{Website: \href{https://paulcousin.github.io/triangular-automata}{paulcousin.github.io/triangular-automata}}. The source code is available in the form of a Mathematica package\footnote{Package demonstration: \href{https://paulcousin.github.io/triangular-automata-mathematica}{paulcousin.github.io/triangular-automata-mathematica}}. \smallskip
 \end{abstract} 
 
 \keywords{cellular automata, triangular grid, dynamical systems, complexity.}
-
-\vspace{20pt}
-
-\section{Preamble} \label{preamble}
-This paper comes with a website where you can interactively explore the 256 cellular automata presented here (including through different kinds of animations), as well as an easy-to-use Mathematica package.
-
-\begin{enumerate}
-    \item[•]\hspace{-1.5mm} Website: \href{https://paulcousin.github.io/triangular-automata}{paulcousin.github.io/triangular-automata}
-    \item[•]\hspace{-1.5mm} Package demonstration: \href{https://paulcousin.github.io/triangular-automata-mathematica}{paulcousin.github.io/triangular-automata-mathematica}
-\end{enumerate}
 
 \section{Introduction} \label{introduction}
 Cellular automata in the triangular grid, or \textbf{Triangular Automata} (TA) for short, have already been studied in a few papers \cite{
@@ -199,7 +189,7 @@ The \textbf{configuration} $c(v)$ of a vertex is a number which, when they are i
 c(v)=4\times s(v)+\sum_{i\in N(v)} s(i)
 \end{equation}
 
-The space of possible ETA rules is finite. For each one of the 8 configurations, a rule must specify whether the vertex will be dead or alive at $t+1$. Consequently, there are only $2^8=256$ possible rules. For this reason, ETA can be seen as the two-dimensional counterpart of Wolfram’s 256 Elementary Cellular Automata\cite{wolfram2002new, weisstein2002elementary}. Furthermore, the triangle is the regular polygon tiling 2D space with the smallest number of neighbors per cell. ETA are thus the most basic 2D cellular automata and have a fundamental aspect in this regard. \\
+The space of possible ETA rules is finite. For each of the 8 configurations, a rule must specify whether the vertex will be dead or alive at $t+1$. Consequently, there are only $2^8=256$ possible rules. For this reason, ETA can be seen as the two-dimensional counterpart of Wolfram’s 256 Elementary Cellular Automata\cite{wolfram2002new, weisstein2002elementary}. In fact, there is a direct equivalence between 64 of each (see \textit{Section \ref{elementary-cellular-automata}}). Furthermore, the triangle is the regular polygon tiling 2D space with the smallest number of neighbors per cell. ETA are thus the most basic 2D cellular automata and have a fundamental aspect in this regard. \\
 
 \noindent Each \textbf{rule} $R$ is a map from \textbf{configuration space} to \textbf{state space}.
 \begin{equation}
@@ -222,39 +212,48 @@ Each rule can be labeled by a unique \textbf{rule number} $n$ (see \textit{Equat
     \label{fig:rule-plot-181}
 \end{figure}
 
+\pagebreak
 \section{Behavior} \label{behavior}
 Before going into the details of how to compute these automata, we can take a look at how they behave. In this section, a preliminary study of ETA will be presented to motivate a future, more in-depth analysis. It is of particular interest to see what happens to a single living cell under different ETA rules so, unless otherwise noted, the following figures come from this starting point.
 
-\pagebreak
 \subsection{Beauty} \label{beauty}
 One of the most striking aspects of these automata is their aesthetic quality, which cannot be better illustrated than by a few selected examples.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.59\textwidth]{graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf}
-    \caption{Rule 89 at $t=200$}
-    \label{fig:rule-89-time-200-OneAlive}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.59\textwidth]{graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf}
-    \caption{Rule 57 at $t=320$}
-    \label{fig:rule-57-time-320-OneAlive}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf}
+        \caption{Rule 89 at $t=200$}
+        \label{fig:rule-89-time-200-OneAlive}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \raisebox{0.08\textwidth}{
+            \hspace{-0.035\textwidth}
+            \includegraphics[width=\textwidth]{graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf}
+        }
+        \caption{Rule 57 at $t=320$}
+        \label{fig:rule-57-time-320-OneAlive}
+    \end{subfigure}
+    \break
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf}
+        \caption{Rule 73 at $t=256$}
+        \label{fig:rule-73-time-256-OneAlive}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf}
+        \caption{Rule 62 at $t=256$}
+        \label{fig:rule-62-time-256-OneAlive}
+    \end{subfigure}
+    \caption{The beauty of ETA}
+    \label{fig:beauty}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.618\textwidth]{graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf}
-    \caption{Rule 73 at $t=256$}
-    \label{fig:rule-73-time-256-OneAlive}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.618\textwidth]{graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf}
-    \caption{Rule 62 at $t=256$}
-    \label{fig:rule-62-time-256-OneAlive}
-\end{figure}
-
+\pagebreak
 \subsection{Chaos} \label{chaos}
 Given the existing literature on cellular automata, it is quite expected to see some of these rules behave chaotically. The example of rule 53 confirms it. Starting from two randomly generated 64 layers wide grids that are completely similar except for the central cell which is alive in (1) and dead in (2), the trajectories strongly diverge.
 
@@ -303,91 +302,29 @@ Some ETA rules produce remarkable scale-free structures.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.58\textwidth]{graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf}
-    \caption{Rule 65 at $t=512$}
-    \label{fig:rule-65-time-512-OneAlive}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.64\textwidth]{graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf}
-    \caption{Rule 106 at $t=510$}
-    \label{fig:rule-106-time-510-OneAlive}
-\end{figure}
-
-\pagebreak
-\ \\
-\vspace{5mm}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf}
-    \caption{Rule 50 at $t=352$}
-    \label{fig:rule-50-time-352-OneAlive}
-\end{figure}
-
-\pagebreak
-\subsection{Space-Time} \label{space-time}
-Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2002elementary} are most often represented, the evolution of an ETA can be displayed in one single plot. Here, an instant is two-dimensional, so adding the dimension of time creates a 3D structure. In these \textbf{space-time plots}, time flows downward. The successive grids are stacked beneath each other, starting from the initial conditions at the top. To avoid the infinite planes created by an alive environment, we can display only the cells that have the opposite state to it at each time step. A lot of information is therefore lost. We do not see most of the internal structure and we cannot know the state of the environment. Nevertheless, this representation helps visualize some properties of ETA that are difficult to notice otherwise. For instance, certain rules create 3D space-time fractals.
-
-\vspace{1cm}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-perspective.jpg}
-    \caption{Space-time plot of rule 10 up to $t=512$}
-    \label{fig:rule-10-perspective}
-\end{figure}
-
-% \pagebreak
-% \ \\
-% \vspace{1cm}
-
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-orthographic.jpg}
-%     \caption{Space-time plot of rule 10 up to $t=512$ (orthographic)}
-%     \label{fig:rule-10-orthographic}
-% \end{figure}
-
-
-
-\pagebreak
-\subsection{Center Column} \label{center-column}
-\noindent There are a few rules where the state of the first living cell evolves in an interesting way. This sequence of states forms the center column of the space-time plots.
-\vspace{40pt}
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.49\textwidth}
+    \begin{subfigure}[b]{0.68\textwidth}
         \centering
-        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf}
-        \caption{Rule 37 (OEIS \href{https://oeis.org/A371844}{A371844})}
-        \label{fig:rule-37-center_column_plot-4096}
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf}
+        \caption{Rule 50 at $t=352$}
+        \label{fig:rule-50-time-352-OneAlive}
     \end{subfigure}
-    \vspace{16pt}
-    \begin{subfigure}[b]{0.49\textwidth}
+    \break
+    \begin{subfigure}[b]{0.46\textwidth}
         \centering
-        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf}
-        \caption{Rule 61 (OEIS \href{https://oeis.org/A372553}{A372553})}
-        \label{fig:rule-61-center_column_plot-4096}
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf}
+        \caption{Rule 65 at $t=512$}
+        \label{fig:rule-65-time-512-OneAlive}
     \end{subfigure}
-    \begin{subfigure}[b]{0.49\textwidth}
+    \hspace{0.06\textwidth}
+    \begin{subfigure}[b]{0.46\textwidth}
         \centering
-        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf}
-        \caption{Rule 62 (OEIS \href{https://oeis.org/A371931}{A371931})}
-        \label{fig:rule-62-center_column_plot-4096}
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf}
+        \caption{Rule 106 at $t=510$}
+        \label{fig:rule-106-time-510-OneAlive}
     \end{subfigure}
-    \vspace{4pt}
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=.8\textwidth]{graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf}
-        \caption{Rule 94 (OEIS \href{https://oeis.org/A372552}{A372552})}
-        \label{fig:rule-94-center_column_plot-4096}
-    \end{subfigure}
-       \caption{Center columns $1\leq t \leq 4096$ (read left-to-right, top-to-bottom)}
-       \label{fig:center-columns}
+    \caption{Fractals}
+    \label{fig:fractals}
 \end{figure}
-
 
 \pagebreak
 \subsection{Self-Reproduction} \label{self-reproduction}
@@ -433,29 +370,249 @@ As mentioned in \cite{saadatCopyMachinesSelfreproduction2023}, one of the origin
     \label{tab:my_label}
 \end{table}
 
+\pagebreak
+\subsection{Space-Time} \label{space-time}
+Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2002elementary} are most often represented, the evolution of an ETA can be displayed in one single plot. Here, an instant is two-dimensional, so adding the dimension of time creates a 3D structure. In these \textbf{space-time plots}, time flows downward. The successive grids are stacked beneath each other, starting from the initial conditions at the top. To avoid the infinite planes created by an alive environment, we can display only the cells that have the opposite state to it at each time step. A lot of information is therefore lost. We do not see most of the internal structure and we cannot know the state of the environment. Nevertheless, this representation helps visualize some properties of ETA that are difficult to notice otherwise. For instance, certain rules create 3D space-time fractals.
+
+\vspace{1cm}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-perspective.jpg}
+    \caption{Space-time plot of rule 10 up to $t=512$}
+    \label{fig:rule-10-perspective}
+\end{figure}
+
+\pagebreak
+Another way to see the time evolution of an ETA in a single plot is to look at just one line of the grid, i.e. to look at a sliced space-time plot from the side. There is a most natural way to slice: along the lines that preserve the neighborhood relationships.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\textwidth]{graphics/behavior/space-time/slice-lines.png}
+    \caption{Natural slicing lines}
+    \label{fig:slice-lines}
+\end{figure}
+
+The states along these lines can be plotted beneath each other to create Wolfram-style plots, here called \textbf{slice plots}.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{graphics/behavior/space-time/rule-10-slice-plot-512.pdf}
+    \caption{Slice plot of rule 10 up to $t=512$}
+    \label{fig:rule-10-slice-plot-512}
+\end{figure}
+
+\pagebreak
+\subsection{Elementary Cellular Automata} \label{elementary-cellular-automata}
+Under a certain condition, ETA rules maintain the uniformity of layers. This is the case when the $2^\text{nd}$ and $3^\text{rd}$ digits of the binary rule number are the same, as well as the $6^\text{th}$ and $7^\text{th}$.
+
+\begin{equation}
+    \Big[R(1)=R(2)\Big] \land \Big[R(5)=R(6)\Big]
+\end{equation}
+
+\noindent 64 ETA rules satisfy this condition and they are all striclty equivalent to a unique symmetric \textbf{Elementary Cellular Automaton} (ECA) \cite{wolfram2002new}.
+
+\begin{figure}[H]
+    \centering
+    \boxed{\includegraphics[width=.5\textwidth]{graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf}}
+    \caption{Conversion between ETA and ECA rules}
+    \label{fig:ETA-to-ECA}
+\end{figure}
+
+\noindent In this case, taking a slice plot of the ETA gives the classic ECA plot.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.65\textwidth]{graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg}
+    \caption{Slice plot of rule 97 (ECA rule 73) up to $t=128$}
+    \label{fig:rule-97-slice-plot-128}
+\end{figure}
+
+\vspace{-10pt}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.4\textwidth]{graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf}
+    \caption{Rule 97 at $t=128$}
+    \label{fig:rule-97-time-128}
+\end{figure}
+
+\pagebreak
+\subsection{Center Column} \label{center-column}
+\noindent There are a few rules where the state of the first living cell evolves in an interesting way. This sequence of states forms the center column of the space-time plots.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf}
+        \caption*{Rule 37\\(OEIS \href{https://oeis.org/A371844}{A371844})}
+        \label{fig:rule-37-center_column_plot-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf}
+        \caption*{Rule 61\\(OEIS \href{https://oeis.org/A372553}{A372553})}
+        \label{fig:rule-61-center_column_plot-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf}
+        \caption*{Rule 62\\(OEIS \href{https://oeis.org/A371931}{A371931})}
+        \label{fig:rule-62-center_column_plot-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf}
+        \caption*{Rule 94\\(OEIS \href{https://oeis.org/A372552}{A372552})}
+        \label{fig:rule-94-center_column_plot-4096}
+    \end{subfigure}
+       \caption{Center column $1\leq t \leq 4096$ (read left-to-right, top-to-bottom)}
+       \label{fig:center-column}
+\end{figure}
+
+The symmetries of the triangle impose that, starting from a single living cell, layers 1 and 2 remain uniform. We therefore have a three layers wide pillar, which is fully described by a sequence of bit triplets. These can be mapped to RGB colors to extend the previous plots.
+
+\vspace{-8pt}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.2\textwidth]{graphics/behavior/center-columns/rgb-map.pdf}
+    \caption{RGB map}
+    \label{fig:rgb-map}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/red.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/green.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/blue.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/yellow.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/cyan.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/pink.png}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1\textwidth}
+        \centering
+        \includegraphics[width=.9\textwidth]{graphics/behavior/center-columns/white.png}
+    \end{subfigure}
+       \caption{Living cells with corresponding colors}
+       \label{fig:colors}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-37-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 37}
+        \label{fig:rule-37-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-45-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 45}
+        \label{fig:rule-45-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-54-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 54}
+        \label{fig:rule-54-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-61-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 61}
+        \label{fig:rule-61-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-62-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 62}
+        \label{fig:rule-62-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-67-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 67}
+        \label{fig:rule-67-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-75-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 75}
+        \label{fig:rule-75-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-94-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 94}
+        \label{fig:rule-94-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-131-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 131}
+        \label{fig:rule-131-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-133-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 133}
+        \label{fig:rule-133-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-146-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 146}
+        \label{fig:rule-146-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-154-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 154}
+        \label{fig:rule-154-center_columns-4096}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.135\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/center-columns/rule-210-center_columns-4096.pdf}
+        \vspace{-16pt}\caption*{Rule 210}
+        \label{fig:rule-210-center_columns-4096}
+    \end{subfigure}
+       \caption{Three center columns $1\leq t \leq 4096$}
+       \label{fig:center-columns}
+\end{figure}
 
 \pagebreak
 \subsection{Rule 210} \label{rule-210}
 Rule 210 is easy to describe: ``change the state of cells that have one neighbor alive". It is special for several reasons: it creates larger structures as time goes on and a new type of structure appears from around $t=1024$.
 
-
 \begin{figure}[H]
     \centering
     \begin{tblr}{c c c c c}
-            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-256.jpg}} &
-            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-512.jpg}} &
-            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-1024.jpg}} &
-            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-2048.jpg}} &
-            % \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-4096.jpg}} \\
-            % 256 & 512 & 1024 & 2048 & 4096 \\
-            
             \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-257.jpg}} &
             \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-513.jpg}} &
             \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-1025.jpg}} &
             \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-2049.jpg}} &
             \raisebox{-.05\height}{\includegraphics[width=0.165\textwidth]{graphics/behavior/rule-210/rule-210-time-4097.jpg}} \\
-            257 & 513 & 1025 & 2049 & 4097 \\
-            
+            257 & 513 & 1025 & 2049 & 4097
     \end{tblr}
     \caption{Rule 210 at $t=2^i +1$ (the structure is best seen on odd time steps from afar)}
     \label{tab:rule-210-evolution}
@@ -475,13 +632,13 @@ Rule 210 is easy to describe: ``change the state of cells that have one neighbor
     \caption{Close-up of rule 210 at $t=2048$}
     \label{fig:rule-210-close-up-2048}
 \end{figure}
-\vspace{-10pt}
+\vspace{-16pt}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{graphics/behavior/rule-210/rule-210-time-4096-close-up.jpg}
-    \vspace{-16pt}
-    \caption{Close-up of rule 210 at $t=4096$}
-    \label{fig:rule-210-close-up-4096}
+    \includegraphics[width=.9\textwidth]{graphics/behavior/rule-210/rule-210-slice-4096.jpg}
+    \vspace{-10pt}
+    \caption{Slice plot of rule 210 up to $t=4096$}
+    \label{fig:rule-210-slice-2816}
 \end{figure}
 
 \noindent Rule 210 initially alternates between what seems like 2 population densities (i.e. number of living cells / size of the first cell's region of influence). When the new structure appears, around $t=1024$, the population stabilizes in a density cycle of period 4 between slowly evolving values.
@@ -507,49 +664,50 @@ Rule 210 is easy to describe: ``change the state of cells that have one neighbor
 \subsection{Noise} \label{noise}
 Some rules seem to generate a pretty good noise. For example, if we pick a simple starting point without symmetries, rule 37 will usually turn it into an expanding disk with a random-looking interior.
 
-\vspace{1cm}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.07\textwidth]{graphics/behavior/noise/rule-37-time-0-asymmetric.pdf}
-    \caption{Simple asymmetric starting point}
-    \label{fig:rule-37-time-0-asymmetric}
+    \begin{subfigure}[t]{0.39\textwidth}
+        \centering
+        \raisebox{0.45\textwidth}{
+            \includegraphics[width=.2\textwidth]{graphics/behavior/noise/rule-37-time-0-asymmetric.pdf}
+        }
+        \caption{Simple asymmetric starting point}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.6\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/noise/rule-37-time-512-asymmetric.pdf}
+        \caption{Result at $t=512$}
+        \label{fig:rule-37-time-512-asymmetric}
+    \end{subfigure}
+    \caption{Generating noise with rule 37}
+    \label{fig:noise}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.9\textwidth]{graphics/behavior/noise/rule-37-time-512-asymmetric.pdf}
-    \caption{Result at $t=512$ with rule 37}
-    \label{fig:rule-37-time-512-asymmetric}
-\end{figure}
+\vspace{5pt}
 
-
-\pagebreak
 \subsection{Textures} \label{textures}
 Organic textures can be obtained by applying other rules to this pseudorandom grid.
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.8\textwidth}
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-204-time-32-noise.pdf}
         \caption{Rule 204 at at $t=32$}
         \label{fig:rule-204-time-32-noise}
     \end{subfigure}
-    \vspace{20pt}
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
-        \caption{Rule 100 at at $t=64$}
-        \label{fig:rule-100-time-64-noise}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.49\textwidth}
+    \begin{subfigure}[b]{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-108-time-512-noise.pdf}
         \caption{Rule 108 at at $t=512$}
         \label{fig:rule-108-time-512-noise}
     \end{subfigure}
-        \vspace{-10pt}
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
+        \caption{Rule 100 at at $t=64$}
+        \label{fig:rule-100-time-64-noise}
+    \end{subfigure}
        \caption{Starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
        \label{fig:textures}
 \end{figure}
@@ -589,14 +747,14 @@ A simple procedure can be followed to find the evil twin of a rule that has the 
      \centering
      \begin{subfigure}[b]{0.48\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{graphics/behavior/twins/rule-214-OneAlive.pdf}
+         \includegraphics[width=\textwidth]{graphics/behavior/twins/rule-214-OneAlive.jpg}
          \caption{rule 214 from one living cell at $t=128$}
          \label{fig:twin-1}
      \end{subfigure}
      \hspace{0.02\textwidth}
      \begin{subfigure}[b]{0.48\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{graphics/behavior/twins/rule-148-OneDead.pdf}
+         \includegraphics[width=\textwidth]{graphics/behavior/twins/rule-148-OneDead.jpg}
          \caption{rule 148 from one dead cell at $t=128$}
          \label{fig:twin-2}
      \end{subfigure}
@@ -720,7 +878,16 @@ $\mathbb{I}_i$ is the $i\times i$ identity matrix. $\mathbb{S}_i$ will be a $i\t
 
 \subsection{Growing the triangular grid} \label{growing-the-grid}
 
-As mentioned in \textit{Section \ref{introduction}}, the grid is going to be grown from a single cell by adding layers. This will be done with a precursor of the adjacency matrix called the \textbf{grid matrix} $\mathcal{G}$. Up to the third layer, the grid matrix is better hand-coded. The third matrix $\mathcal{G}_3$ can be seen in \textit{Figure \ref{fig:grid-matrix}}. The subsequent layers will follow a repeating pattern.
+As mentioned in \textit{Section \ref{introduction}}, the grid will be grown from a single cell by adding layers. The cells will be ordered counterclockwise, with the first vertex of each new layer placed on the south-east diagonal (see \textit{Figure \ref{fig:cell-ordering}}).
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=.37\textwidth]{graphics/implementation/cell-ordering.pdf}
+    \caption{Cell ordering}
+    \label{fig:cell-ordering}
+\end{figure}
+
+This is done with a precursor of the adjacency matrix called the \textbf{grid matrix} $\mathcal{G}$. Up to the third layer, the grid matrix is better hand-coded. The third matrix $\mathcal{G}_3$ can be seen in \textit{Figure \ref{fig:grid-matrix}}. The subsequent layers will follow a repeating pattern.
 
 \begin{figure}[H]
 \centering
@@ -782,8 +949,6 @@ As mentioned in \textit{Section \ref{introduction}}, the grid is going to be gro
         0 & 0 & 0 & 0 & 0 & {\color{orange}1} & {\color{orange}1} & 0 & 0 \\
         0 & 0 & 0 & 0 & 0 & 0 & 0 & {\color{orange}1} & {\color{orange}1} 
     \end{matrix}
-    % & \vspace{-.25cm} \\
-    % & & & \hspace{-.25cm }\ddots \\ %\mathclap{\ddots}
 \end{pmatrix}$}
 \caption{Grid matrix $\mathcal{G}_3$ (with layers {\color{purple}1}, {\color{red}2} and {\color{orange}3})}
 \label{fig:grid-matrix}
@@ -888,6 +1053,7 @@ Finally, the state of all vertices of the last layer (created in step 1) is set 
     \item[•] It is also useful to note that each layer $l$ contains $3l$ vertices or cells (except when $l=0$).
 \end{enumerate}
 
+\pagebreak
 \subsection{Plotting the result}
 2D coordinates are required to plot the resulting grid. These can be computed in a \textbf{coordinates matrix} $\mathcal{K}$. \textit{Algorithm \ref{expand-coords}} can be used to expand $\mathcal{K}$ from the coordinates of the first vertex, placed at the origin $\begin{pmatrix}0&0\end{pmatrix}$.
 
@@ -964,8 +1130,7 @@ These coordinates will serve to translate a base triangle whose orientation depe
 \end{algorithmic}
 \end{algorithm}
 
-\medskip
-
+\pagebreak
 \section{Conclusion} \label{conclusion}
 The triangular tessellation plays an important role in many disciplines, from computer graphics to architecture. TA are a way of populating it with aesthetic patterns. Beyond the possible applications, ETA are somewhat fundamental cellular automata, making them an elegant model of complexity. With the framework presented here, the 256 ETA rules can now be thoroughly explored, even with limited computational resources. \\
 
@@ -977,33 +1142,8 @@ The triangular tessellation plays an important role in many disciplines, from co
 \item Turing completeness and other interesting properties could be searched for in ETA rules.
 \end{enumerate}
 
-\pagebreak
+% References
 \bibliographystyle{IEEEtran}
 \bibliography{refs.bib}
-
-\appendix
-
-\captionsetup{labelfont={sf,bf}}
-\captionsetup[subfigure]{size=tiny,skip=2px}
-\newcounter{x}
-\newcounter{y}
-\newcounter{z}
-\foreach \n in {2, 4, 8, 16, 32, 64}{
-    \pagebreak
-    \begin{center}{\LARGE $t=\n$}\end{center}
-    \centering
-    \begin{figure}[H]
-            \forloop{x}{0}{\value{x} < 16}{
-                \hspace*{-0.125\textwidth}
-                \forloop{y}{0}{\value{y} < 16}{
-                    \setcounter{z}{16*\value{x}+\value{y}} \edef\z{\arabic{z}}
-                        \begin{subfigure}[b]{0.06\textwidth}
-                                \includegraphics[width=\textwidth,height=\textwidth]{graphics/appendix/rule-\z -time-\n .pdf}
-                                 \caption*{\arabic{z}}
-                        \end{subfigure} \hspace{-0.1\textwidth}
-                } \vspace{2.2px}\linebreak
-            }
-    \end{figure}   
-}
 
 \end{document}
