@@ -199,17 +199,19 @@ The space of possible ETA rules is finite. For each of the 8 configurations, a r
 \end{aligned}
 \end{equation}
 
-Each rule can be labeled by a unique \textbf{rule number} $n$ (see \textit{Equation \ref{eq:rule-number}}). We will use the labeling system which was independently proposed in \cite{zawidzkiApplicationSemitotalistic2D2011} and \cite{cousin2022organic}, since it must be somewhat natural and because it has useful properties. This system, inspired by the Wolfram code \cite{wolfram2002new}, is such that a rule number in its binary form displays the behavior of the rule. Starting from the right, its digits indicate the future state for each configuration as they have been ordered previously. \textit{Figure \ref{fig:rule-plot-181}} shows the example of rule 181.
+Each rule can be labeled by a unique \textbf{rule number} $n$ (see \textit{Equation \ref{eq:rule-number}}). We will use the labeling system which was independently proposed in \cite{zawidzkiApplicationSemitotalistic2D2011} and \cite{cousin2022organic}, since it must be somewhat natural and because it has useful properties. This system, inspired by the Wolfram code \cite{wolfram2002new}, is such that a rule number in its binary form displays the behavior of the rule. Starting from the right, its digits indicate the future state for each configuration as they have been ordered previously. \textit{Figure \ref{fig:rule-plot-210}} shows the example of rule 210.
 
 \begin{equation} \label{eq:rule-number}
     n=\sum_{i=0}^7 2^i R(i)
 \end{equation}
 
+\vspace{20pt}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\textwidth]{graphics/introduction/rule-plot-181.pdf}
-    \caption{Rule $181=1011,0101_2$}
-    \label{fig:rule-plot-181}
+    \includegraphics[width=.8\textwidth]{graphics/introduction/rule-plot-210.pdf}
+    \caption{Rule $210=1101,0010_2$}
+    \label{fig:rule-plot-210}
 \end{figure}
 
 \pagebreak
@@ -254,6 +256,36 @@ One of the most striking aspects of these automata is their aesthetic quality, w
 \end{figure}
 
 \pagebreak
+\subsection{Fractals} \label{fractals}
+Some ETA rules produce remarkable scale-free structures. 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.68\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf}
+        \caption{Rule 50 at $t=352$}
+        \label{fig:rule-50-time-352-OneAlive}
+    \end{subfigure}
+    \break
+    \begin{subfigure}[b]{0.46\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf}
+        \caption{Rule 65 at $t=512$}
+        \label{fig:rule-65-time-512-OneAlive}
+    \end{subfigure}
+    \hspace{0.06\textwidth}
+    \begin{subfigure}[b]{0.46\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf}
+        \caption{Rule 106 at $t=510$}
+        \label{fig:rule-106-time-510-OneAlive}
+    \end{subfigure}
+    \caption{Fractals}
+    \label{fig:fractals}
+\end{figure}
+
+\pagebreak
 \subsection{Chaos} \label{chaos}
 Given the existing literature on cellular automata, it is quite expected to see some of these rules behave chaotically. The example of rule 53 confirms it. Starting from two randomly generated 64 layers wide grids that are completely similar except for the central cell which is alive in (1) and dead in (2), the trajectories strongly diverge.
 
@@ -294,36 +326,6 @@ Given the existing literature on cellular automata, it is quite expected to see 
         \includegraphics[width=.7\textwidth]{graphics/behavior/chaos/rule-53.pdf}
     \caption{Rule 53}
     \label{fig:rule-plot-53}
-\end{figure}
-
-\pagebreak
-\subsection{Fractals} \label{fractals}
-Some ETA rules produce remarkable scale-free structures. 
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.68\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf}
-        \caption{Rule 50 at $t=352$}
-        \label{fig:rule-50-time-352-OneAlive}
-    \end{subfigure}
-    \break
-    \begin{subfigure}[b]{0.46\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf}
-        \caption{Rule 65 at $t=512$}
-        \label{fig:rule-65-time-512-OneAlive}
-    \end{subfigure}
-    \hspace{0.06\textwidth}
-    \begin{subfigure}[b]{0.46\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf}
-        \caption{Rule 106 at $t=510$}
-        \label{fig:rule-106-time-510-OneAlive}
-    \end{subfigure}
-    \caption{Fractals}
-    \label{fig:fractals}
 \end{figure}
 
 \pagebreak
@@ -384,7 +386,7 @@ Similar to the way Elementary Cellular Automata \cite{wolfram2002new, weisstein2
 \end{figure}
 
 \pagebreak
-Another way to see the time evolution of an ETA in a single plot is to look at just one line of the grid, i.e. to look at a sliced space-time plot from the side. There is a most natural way to slice: along the lines that preserve the neighborhood relationships.
+Another way to see the time evolution of an ETA in a single plot is to look at just one line of the grid, i.e. to look at a sliced space-time plot from the side. There is a most natural way to slice: along the lines that preserve the neighborhood relations.
 
 \begin{figure}[H]
     \centering
@@ -692,9 +694,9 @@ Organic textures can be obtained by applying other rules to this pseudorandom gr
     \centering
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-204-time-32-noise.pdf}
-        \caption{Rule 204 at at $t=32$}
-        \label{fig:rule-204-time-32-noise}
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
+        \caption{Rule 100 at at $t=64$}
+        \label{fig:rule-100-time-64-noise}
     \end{subfigure}
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
@@ -704,9 +706,9 @@ Organic textures can be obtained by applying other rules to this pseudorandom gr
     \end{subfigure}
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-100-time-64-noise.pdf}
-        \caption{Rule 100 at at $t=64$}
-        \label{fig:rule-100-time-64-noise}
+        \includegraphics[width=\textwidth]{graphics/behavior/textures/rule-204-time-32-noise.pdf}
+        \caption{Rule 204 at at $t=32$}
+        \label{fig:rule-204-time-32-noise}
     \end{subfigure}
        \caption{Starting from \textit{Figure \ref{fig:rule-37-time-512-asymmetric}}}
        \label{fig:textures}
@@ -1144,6 +1146,6 @@ The triangular tessellation plays an important role in many disciplines, from co
 
 % References
 \bibliographystyle{IEEEtran}
-\bibliography{refs.bib}
+\bibliography{main.bib}
 
 \end{document}

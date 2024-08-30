@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.23)  24 AUG 2024 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.23)  30 AUG 2024 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,36 +731,36 @@ pdfTeX warning: pdflatex (file ./graphics/introduction/layers.pdf): PDF inclusio
 
 pdfTeX warning: pdflatex (file ./graphics/introduction/graph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/introduction/rule-plot-181.pdf, id=168, 513.92pt x 155.58125pt>
-File: graphics/introduction/rule-plot-181.pdf Graphic file (type pdf)
-<use graphics/introduction/rule-plot-181.pdf>
-Package pdftex.def Info: graphics/introduction/rule-plot-181.pdf  used on input line 210.
-(pdftex.def)             Requested size: 276.00105pt x 83.55681pt.
- [3 <./graphics/introduction/rule-plot-181.pdf>]
-<graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf, id=190, 578.16pt x 662.475pt>
+<graphics/introduction/rule-plot-210.pdf, id=168, 513.92pt x 158.5925pt>
+File: graphics/introduction/rule-plot-210.pdf Graphic file (type pdf)
+<use graphics/introduction/rule-plot-210.pdf>
+Package pdftex.def Info: graphics/introduction/rule-plot-210.pdf  used on input line 212.
+(pdftex.def)             Requested size: 276.00105pt x 85.17403pt.
+ [3 <./graphics/introduction/rule-plot-210.pdf>]
+<graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf, id=267, 578.16pt x 662.475pt>
 File: graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf Graphic file (type pdf)
 <use graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf  used on input line 226.
+Package pdftex.def Info: graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf  used on input line 228.
 (pdftex.def)             Requested size: 155.24895pt x 177.8901pt.
-<graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf, id=191, 578.16pt x 565.11125pt>
+<graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf, id=268, 578.16pt x 565.11125pt>
 File: graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf Graphic file (type pdf)
 <use graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf  used on input line 235.
+Package pdftex.def Info: graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf  used on input line 237.
 (pdftex.def)             Requested size: 155.24895pt x 151.74565pt.
 
-Overfull \hbox (4.5657pt too wide) in paragraph at lines 232--236
+Overfull \hbox (4.5657pt too wide) in paragraph at lines 234--238
  [][] 
  []
 
-<graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf, id=192, 578.16pt x 662.475pt>
+<graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf, id=269, 578.16pt x 662.475pt>
 File: graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf Graphic file (type pdf)
 <use graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf  used on input line 242.
+Package pdftex.def Info: graphics/behavior/beauty/rule-73-time-256-OneAlive.pdf  used on input line 244.
 (pdftex.def)             Requested size: 155.24895pt x 177.8901pt.
-<graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf, id=193, 578.16pt x 662.475pt>
+<graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf, id=270, 578.16pt x 662.475pt>
 File: graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf Graphic file (type pdf)
 <use graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf  used on input line 248.
+Package pdftex.def Info: graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf  used on input line 250.
 (pdftex.def)             Requested size: 155.24895pt x 177.8901pt.
 [4 <./graphics/behavior/beauty/rule-89-time-200-OneAlive.pdf> <./graphics/behavior/beauty/rule-57-time-320-OneAlive.pdf
 
@@ -772,32 +772,54 @@ pdfTeX warning: pdflatex (file ./graphics/behavior/beauty/rule-73-time-256-OneAl
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/beauty/rule-62-time-256-OneAlive.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/chaos/chaos-1-1.pdf, id=205, 180.675pt x 206.7725pt>
+<graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf, id=282, 578.16pt x 667.49374pt>
+File: graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf Graphic file (type pdf)
+<use graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf>
+Package pdftex.def Info: graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf  used on input line 266.
+(pdftex.def)             Requested size: 234.59747pt x 270.84274pt.
+<graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf, id=283, 578.16pt x 667.49374pt>
+File: graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf Graphic file (type pdf)
+<use graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf>
+Package pdftex.def Info: graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf  used on input line 273.
+(pdftex.def)             Requested size: 158.70232pt x 183.22014pt.
+<graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf, id=284, 578.16pt x 667.49374pt>
+File: graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf Graphic file (type pdf)
+<use graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf>
+Package pdftex.def Info: graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf  used on input line 280.
+(pdftex.def)             Requested size: 158.70232pt x 183.22014pt.
+ [5 <./graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf> <./graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf
+
+pdfTeX warning: pdflatex (file ./graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf
+
+pdfTeX warning: pdflatex (file ./graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<graphics/behavior/chaos/chaos-1-1.pdf, id=294, 180.675pt x 206.7725pt>
 File: graphics/behavior/chaos/chaos-1-1.pdf Graphic file (type pdf)
 <use graphics/behavior/chaos/chaos-1-1.pdf>
-Package pdftex.def Info: graphics/behavior/chaos/chaos-1-1.pdf  used on input line 266.
+Package pdftex.def Info: graphics/behavior/chaos/chaos-1-1.pdf  used on input line 298.
 (pdftex.def)             Requested size: 103.50105pt x 118.45154pt.
-<graphics/behavior/chaos/chaos-2-1.pdf, id=206, 180.675pt x 206.7725pt>
+<graphics/behavior/chaos/chaos-2-1.pdf, id=295, 180.675pt x 206.7725pt>
 File: graphics/behavior/chaos/chaos-2-1.pdf Graphic file (type pdf)
 <use graphics/behavior/chaos/chaos-2-1.pdf>
-Package pdftex.def Info: graphics/behavior/chaos/chaos-2-1.pdf  used on input line 272.
+Package pdftex.def Info: graphics/behavior/chaos/chaos-2-1.pdf  used on input line 304.
 (pdftex.def)             Requested size: 103.50105pt x 118.45154pt.
-<graphics/behavior/chaos/chaos-1-2.pdf, id=207, 578.16pt x 547.04375pt>
+<graphics/behavior/chaos/chaos-1-2.pdf, id=296, 578.16pt x 547.04375pt>
 File: graphics/behavior/chaos/chaos-1-2.pdf Graphic file (type pdf)
 <use graphics/behavior/chaos/chaos-1-2.pdf>
-Package pdftex.def Info: graphics/behavior/chaos/chaos-1-2.pdf  used on input line 278.
+Package pdftex.def Info: graphics/behavior/chaos/chaos-1-2.pdf  used on input line 310.
 (pdftex.def)             Requested size: 165.59853pt x 156.68536pt.
-<graphics/behavior/chaos/chaos-2-2.pdf, id=208, 578.16pt x 551.05875pt>
+<graphics/behavior/chaos/chaos-2-2.pdf, id=297, 578.16pt x 551.05875pt>
 File: graphics/behavior/chaos/chaos-2-2.pdf Graphic file (type pdf)
 <use graphics/behavior/chaos/chaos-2-2.pdf>
-Package pdftex.def Info: graphics/behavior/chaos/chaos-2-2.pdf  used on input line 283.
+Package pdftex.def Info: graphics/behavior/chaos/chaos-2-2.pdf  used on input line 315.
 (pdftex.def)             Requested size: 165.59853pt x 157.83536pt.
-<graphics/behavior/chaos/rule-53.pdf, id=209, 513.92pt x 158.5925pt>
+<graphics/behavior/chaos/rule-53.pdf, id=298, 513.92pt x 158.5925pt>
 File: graphics/behavior/chaos/rule-53.pdf Graphic file (type pdf)
 <use graphics/behavior/chaos/rule-53.pdf>
-Package pdftex.def Info: graphics/behavior/chaos/rule-53.pdf  used on input line 294.
+Package pdftex.def Info: graphics/behavior/chaos/rule-53.pdf  used on input line 326.
 (pdftex.def)             Requested size: 241.49895pt x 74.52637pt.
- [5 <./graphics/behavior/chaos/chaos-1-1.pdf> <./graphics/behavior/chaos/chaos-2-1.pdf
+ [6 <./graphics/behavior/chaos/chaos-1-1.pdf> <./graphics/behavior/chaos/chaos-2-1.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/chaos/chaos-2-1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./graphics/behavior/chaos/chaos-1-2.pdf
@@ -810,28 +832,6 @@ pdfTeX warning: pdflatex (file ./graphics/behavior/chaos/chaos-2-2.pdf): PDF inc
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/chaos/rule-53.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf, id=306, 578.16pt x 667.49374pt>
-File: graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf Graphic file (type pdf)
-<use graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf  used on input line 307.
-(pdftex.def)             Requested size: 234.59747pt x 270.84274pt.
-<graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf, id=307, 578.16pt x 667.49374pt>
-File: graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf Graphic file (type pdf)
-<use graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf  used on input line 314.
-(pdftex.def)             Requested size: 158.70232pt x 183.22014pt.
-<graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf, id=308, 578.16pt x 667.49374pt>
-File: graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf Graphic file (type pdf)
-<use graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf>
-Package pdftex.def Info: graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf  used on input line 321.
-(pdftex.def)             Requested size: 158.70232pt x 183.22014pt.
- [6 <./graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf> <./graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf
-
-pdfTeX warning: pdflatex (file ./graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf
-
-pdfTeX warning: pdflatex (file ./graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -839,506 +839,506 @@ pdfTeX warning: pdflatex (file ./graphics/behavior/fractals/rule-106-time-510-On
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<graphics/behavior/self-reproduction/rule-85-time-0.pdf, id=320, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-85-time-0.pdf, id=398, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-90-time-0.pdf, id=321, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-90-time-0.pdf, id=399, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-165-time-0.pdf, id=322, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-165-time-0.pdf, id=400, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-170-time-0.pdf, id=323, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-170-time-0.pdf, id=401, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-85-time-16.pdf, id=324, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-85-time-16.pdf, id=402, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-90-time-16.pdf, id=325, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-90-time-16.pdf, id=403, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-165-time-16.pdf, id=326, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-165-time-16.pdf, id=404, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-170-time-16.pdf, id=327, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-170-time-16.pdf, id=405, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-85-time-32.pdf, id=328, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-85-time-32.pdf, id=406, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-90-time-32.pdf, id=329, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-90-time-32.pdf, id=407, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-165-time-32.pdf, id=330, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-165-time-32.pdf, id=408, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-170-time-32.pdf, id=331, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-170-time-32.pdf, id=409, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-85-time-48.pdf, id=332, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-85-time-48.pdf, id=410, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-90-time-48.pdf, id=333, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-90-time-48.pdf, id=411, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-165-time-48.pdf, id=334, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-165-time-48.pdf, id=412, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-170-time-48.pdf, id=335, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-170-time-48.pdf, id=413, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-85-time-112.pdf, id=336, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-85-time-112.pdf, id=414, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-90-time-112.pdf, id=337, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-90-time-112.pdf, id=415, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-165-time-112.pdf, id=338, 416.55624pt x 416.55624pt>
+<graphics/behavior/self-reproduction/rule-165-time-112.pdf, id=416, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
-(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
-<use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
-<graphics/behavior/self-reproduction/rule-170-time-112.pdf, id=339, 416.55624pt x 416.55624pt>
+File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
+<use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
+(pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
+<graphics/behavior/self-reproduction/rule-170-time-112.pdf, id=417, 416.55624pt x 416.55624pt>
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 > Step: build the whole table.
 File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-0.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-0.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-0.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-16.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-16.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-16.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-32.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-32.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-32.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-48.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-48.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-48.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-85-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-85-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-85-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-90-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-90-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-90-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-165-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-165-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-165-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
 File: graphics/behavior/self-reproduction/rule-170-time-112.pdf Graphic file (type pdf)
 <use graphics/behavior/self-reproduction/rule-170-time-112.pdf>
-Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 368.
+Package pdftex.def Info: graphics/behavior/self-reproduction/rule-170-time-112.pdf  used on input line 370.
 (pdftex.def)             Requested size: 65.55084pt x 65.55074pt.
  [7 <./graphics/behavior/self-reproduction/rule-85-time-0.pdf> <./graphics/behavior/self-reproduction/rule-90-time-0.pdf
 
@@ -1398,166 +1398,166 @@ pdfTeX warning: pdflatex (file ./graphics/behavior/self-reproduction/rule-165-ti
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/self-reproduction/rule-170-time-112.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/space-time/rule-10-perspective.jpg, id=370, 4673.46pt x 4438.5825pt>
+<graphics/behavior/space-time/rule-10-perspective.jpg, id=447, 4673.46pt x 4438.5825pt>
 File: graphics/behavior/space-time/rule-10-perspective.jpg Graphic file (type jpg)
 <use graphics/behavior/space-time/rule-10-perspective.jpg>
-Package pdftex.def Info: graphics/behavior/space-time/rule-10-perspective.jpg  used on input line 381.
+Package pdftex.def Info: graphics/behavior/space-time/rule-10-perspective.jpg  used on input line 383.
 (pdftex.def)             Requested size: 345.0pt x 327.5966pt.
  [8 <./graphics/behavior/space-time/rule-10-perspective.jpg>]
-<graphics/behavior/space-time/slice-lines.png, id=376, 1644.64438pt x 1886.04625pt>
+<graphics/behavior/space-time/slice-lines.png, id=453, 1644.64438pt x 1886.04625pt>
 File: graphics/behavior/space-time/slice-lines.png Graphic file (type png)
 <use graphics/behavior/space-time/slice-lines.png>
-Package pdftex.def Info: graphics/behavior/space-time/slice-lines.png  used on input line 391.
+Package pdftex.def Info: graphics/behavior/space-time/slice-lines.png  used on input line 393.
 (pdftex.def)             Requested size: 172.5pt x 197.79608pt.
-<graphics/behavior/space-time/rule-10-slice-plot-512.pdf, id=377, 2619.7875pt x 1311.90125pt>
+<graphics/behavior/space-time/rule-10-slice-plot-512.pdf, id=454, 2619.7875pt x 1311.90125pt>
 File: graphics/behavior/space-time/rule-10-slice-plot-512.pdf Graphic file (type pdf)
 <use graphics/behavior/space-time/rule-10-slice-plot-512.pdf>
-Package pdftex.def Info: graphics/behavior/space-time/rule-10-slice-plot-512.pdf  used on input line 400.
+Package pdftex.def Info: graphics/behavior/space-time/rule-10-slice-plot-512.pdf  used on input line 402.
 (pdftex.def)             Requested size: 345.0pt x 172.75513pt.
  [9 <./graphics/behavior/space-time/slice-lines.png (PNG copy)> <./graphics/behavior/space-time/rule-10-slice-plot-512.pdf>]
-<graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf, id=387, 361.35pt x 117.43875pt>
+<graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf, id=464, 361.35pt x 117.43875pt>
 File: graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf Graphic file (type pdf)
 <use graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf>
-Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf  used on input line 417.
+Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf  used on input line 419.
 (pdftex.def)             Requested size: 172.5pt x 56.06172pt.
-<graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg, id=388, 1927.2pt x 961.5925pt>
+<graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg, id=465, 1927.2pt x 961.5925pt>
 File: graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg Graphic file (type jpg)
 <use graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg>
-Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg  used on input line 426.
+Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg  used on input line 428.
 (pdftex.def)             Requested size: 224.2479pt x 111.87933pt.
-<graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf, id=389, 361.35pt x 417.56pt>
+<graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf, id=466, 361.35pt x 417.56pt>
 File: graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf Graphic file (type pdf)
 <use graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf>
-Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf  used on input line 435.
+Package pdftex.def Info: graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf  used on input line 437.
 (pdftex.def)             Requested size: 137.9979pt x 159.4645pt.
  [10 <./graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf> <./graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.jpg> <./graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf, id=413, 361.35pt x 360.34625pt>
+<graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf, id=491, 361.35pt x 360.34625pt>
 File: graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf  used on input line 448.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf  used on input line 450.
 (pdftex.def)             Requested size: 74.5212pt x 74.31133pt.
-<graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf, id=416, 361.35pt x 360.34625pt>
+<graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf, id=494, 361.35pt x 360.34625pt>
 File: graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf  used on input line 454.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf  used on input line 456.
 (pdftex.def)             Requested size: 74.5212pt x 74.31133pt.
-<graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf, id=419, 361.35pt x 360.34625pt>
+<graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf, id=497, 361.35pt x 360.34625pt>
 File: graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf  used on input line 460.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-62-center_column_plot-4096.pdf  used on input line 462.
 (pdftex.def)             Requested size: 74.5212pt x 74.31133pt.
-<graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf, id=422, 361.35pt x 360.34625pt>
+<graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf, id=500, 361.35pt x 360.34625pt>
 File: graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf  used on input line 466.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-94-center_column_plot-4096.pdf  used on input line 468.
 (pdftex.def)             Requested size: 74.5212pt x 74.31133pt.
-<graphics/behavior/center-columns/rgb-map.pdf, id=425, 143.53625pt x 164.615pt>
+<graphics/behavior/center-columns/rgb-map.pdf, id=503, 143.53625pt x 164.615pt>
 File: graphics/behavior/center-columns/rgb-map.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rgb-map.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rgb-map.pdf  used on input line 480.
+Package pdftex.def Info: graphics/behavior/center-columns/rgb-map.pdf  used on input line 482.
 (pdftex.def)             Requested size: 68.99895pt x 79.13235pt.
-<graphics/behavior/center-columns/red.png, id=426, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/red.png, id=504, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/red.png Graphic file (type png)
 <use graphics/behavior/center-columns/red.png>
-Package pdftex.def Info: graphics/behavior/center-columns/red.png  used on input line 489.
+Package pdftex.def Info: graphics/behavior/center-columns/red.png  used on input line 491.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/green.png, id=427, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/green.png, id=505, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/green.png Graphic file (type png)
 <use graphics/behavior/center-columns/green.png>
-Package pdftex.def Info: graphics/behavior/center-columns/green.png  used on input line 493.
+Package pdftex.def Info: graphics/behavior/center-columns/green.png  used on input line 495.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/blue.png, id=428, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/blue.png, id=506, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/blue.png Graphic file (type png)
 <use graphics/behavior/center-columns/blue.png>
-Package pdftex.def Info: graphics/behavior/center-columns/blue.png  used on input line 497.
+Package pdftex.def Info: graphics/behavior/center-columns/blue.png  used on input line 499.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/yellow.png, id=429, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/yellow.png, id=507, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/yellow.png Graphic file (type png)
 <use graphics/behavior/center-columns/yellow.png>
-Package pdftex.def Info: graphics/behavior/center-columns/yellow.png  used on input line 501.
+Package pdftex.def Info: graphics/behavior/center-columns/yellow.png  used on input line 503.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/cyan.png, id=430, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/cyan.png, id=508, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/cyan.png Graphic file (type png)
 <use graphics/behavior/center-columns/cyan.png>
-Package pdftex.def Info: graphics/behavior/center-columns/cyan.png  used on input line 505.
+Package pdftex.def Info: graphics/behavior/center-columns/cyan.png  used on input line 507.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/pink.png, id=431, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/pink.png, id=509, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/pink.png Graphic file (type png)
 <use graphics/behavior/center-columns/pink.png>
-Package pdftex.def Info: graphics/behavior/center-columns/pink.png  used on input line 509.
+Package pdftex.def Info: graphics/behavior/center-columns/pink.png  used on input line 511.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/white.png, id=432, 578.16pt x 578.16pt>
+<graphics/behavior/center-columns/white.png, id=510, 578.16pt x 578.16pt>
 File: graphics/behavior/center-columns/white.png Graphic file (type png)
 <use graphics/behavior/center-columns/white.png>
-Package pdftex.def Info: graphics/behavior/center-columns/white.png  used on input line 513.
+Package pdftex.def Info: graphics/behavior/center-columns/white.png  used on input line 515.
 (pdftex.def)             Requested size: 31.05168pt x 31.04462pt.
-<graphics/behavior/center-columns/rule-37-center_columns-4096.pdf, id=433, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-37-center_columns-4096.pdf, id=511, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-37-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-37-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-37-center_columns-4096.pdf  used on input line 523.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-37-center_columns-4096.pdf  used on input line 525.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-45-center_columns-4096.pdf, id=434, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-45-center_columns-4096.pdf, id=512, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-45-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-45-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-45-center_columns-4096.pdf  used on input line 529.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-45-center_columns-4096.pdf  used on input line 531.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-54-center_columns-4096.pdf, id=435, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-54-center_columns-4096.pdf, id=513, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-54-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-54-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-54-center_columns-4096.pdf  used on input line 535.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-54-center_columns-4096.pdf  used on input line 537.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-61-center_columns-4096.pdf, id=436, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-61-center_columns-4096.pdf, id=514, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-61-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-61-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-61-center_columns-4096.pdf  used on input line 541.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-61-center_columns-4096.pdf  used on input line 543.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-62-center_columns-4096.pdf, id=437, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-62-center_columns-4096.pdf, id=515, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-62-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-62-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-62-center_columns-4096.pdf  used on input line 547.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-62-center_columns-4096.pdf  used on input line 549.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-67-center_columns-4096.pdf, id=438, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-67-center_columns-4096.pdf, id=516, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-67-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-67-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-67-center_columns-4096.pdf  used on input line 553.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-67-center_columns-4096.pdf  used on input line 555.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-75-center_columns-4096.pdf, id=439, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-75-center_columns-4096.pdf, id=517, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-75-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-75-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-75-center_columns-4096.pdf  used on input line 559.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-75-center_columns-4096.pdf  used on input line 561.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-94-center_columns-4096.pdf, id=440, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-94-center_columns-4096.pdf, id=518, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-94-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-94-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-94-center_columns-4096.pdf  used on input line 565.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-94-center_columns-4096.pdf  used on input line 567.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-131-center_columns-4096.pdf, id=441, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-131-center_columns-4096.pdf, id=519, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-131-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-131-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-131-center_columns-4096.pdf  used on input line 571.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-131-center_columns-4096.pdf  used on input line 573.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-133-center_columns-4096.pdf, id=442, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-133-center_columns-4096.pdf, id=520, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-133-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-133-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-133-center_columns-4096.pdf  used on input line 577.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-133-center_columns-4096.pdf  used on input line 579.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-146-center_columns-4096.pdf, id=443, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-146-center_columns-4096.pdf, id=521, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-146-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-146-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-146-center_columns-4096.pdf  used on input line 583.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-146-center_columns-4096.pdf  used on input line 585.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-154-center_columns-4096.pdf, id=444, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-154-center_columns-4096.pdf, id=522, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-154-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-154-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-154-center_columns-4096.pdf  used on input line 589.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-154-center_columns-4096.pdf  used on input line 591.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
-<graphics/behavior/center-columns/rule-210-center_columns-4096.pdf, id=445, 260.975pt x 259.97125pt>
+<graphics/behavior/center-columns/rule-210-center_columns-4096.pdf, id=523, 260.975pt x 259.97125pt>
 File: graphics/behavior/center-columns/rule-210-center_columns-4096.pdf Graphic file (type pdf)
 <use graphics/behavior/center-columns/rule-210-center_columns-4096.pdf>
-Package pdftex.def Info: graphics/behavior/center-columns/rule-210-center_columns-4096.pdf  used on input line 595.
+Package pdftex.def Info: graphics/behavior/center-columns/rule-210-center_columns-4096.pdf  used on input line 597.
 (pdftex.def)             Requested size: 46.5731pt x 46.39215pt.
  [11 <./graphics/behavior/center-columns/rule-37-center_column_plot-4096.pdf> <./graphics/behavior/center-columns/rule-61-center_column_plot-4096.pdf
 
@@ -1618,254 +1618,254 @@ pdfTeX warning: pdflatex (file ./graphics/behavior/center-columns/rule-210-cente
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<graphics/behavior/rule-210/rule-210-time-257.jpg, id=509, 501.875pt x 575.14874pt>
+<graphics/behavior/rule-210/rule-210-time-257.jpg, id=586, 501.875pt x 575.14874pt>
 File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
-(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
-<use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-<graphics/behavior/rule-210/rule-210-time-513.jpg, id=510, 501.875pt x 575.14874pt>
+File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
+<use graphics/behavior/rule-210/rule-210-time-257.jpg>
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
+(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
+<graphics/behavior/rule-210/rule-210-time-513.jpg, id=587, 501.875pt x 575.14874pt>
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-<graphics/behavior/rule-210/rule-210-time-1025.jpg, id=511, 501.875pt x 575.14874pt>
+<graphics/behavior/rule-210/rule-210-time-1025.jpg, id=588, 501.875pt x 575.14874pt>
 File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
-(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
-<use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-<graphics/behavior/rule-210/rule-210-time-2049.jpg, id=512, 501.875pt x 575.14874pt>
+File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
+<use graphics/behavior/rule-210/rule-210-time-1025.jpg>
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
+(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
+<graphics/behavior/rule-210/rule-210-time-2049.jpg, id=589, 501.875pt x 575.14874pt>
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-<graphics/behavior/rule-210/rule-210-time-4097.jpg, id=513, 501.875pt x 575.14874pt>
+<graphics/behavior/rule-210/rule-210-time-4097.jpg, id=590, 501.875pt x 575.14874pt>
 File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
-(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
-<use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
+(pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
+File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
+<use graphics/behavior/rule-210/rule-210-time-4097.jpg>
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 > Step: build the whole table.
 File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-257.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-257.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-257.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-513.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-513.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-513.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-1025.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-1025.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-1025.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-2049.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2049.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2049.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
 File: graphics/behavior/rule-210/rule-210-time-4097.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 616.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097.jpg  used on input line 618.
 (pdftex.def)             Requested size: 56.92268pt x 65.23239pt.
-<graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg, id=514, 1526.83098pt x 1751.27515pt>
+<graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg, id=591, 1526.83098pt x 1751.27515pt>
 File: graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg  used on input line 623.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg  used on input line 625.
 (pdftex.def)             Requested size: 293.2521pt x 336.35324pt.
-<graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg, id=515, 2397.12465pt x 999.05641pt>
+<graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg, id=592, 2397.12465pt x 999.05641pt>
 File: graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg  used on input line 630.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg  used on input line 632.
 (pdftex.def)             Requested size: 345.0pt x 143.78474pt.
-<graphics/behavior/rule-210/rule-210-slice-4096.jpg, id=516, 260.96696pt x 131.45914pt>
+<graphics/behavior/rule-210/rule-210-slice-4096.jpg, id=593, 260.96696pt x 131.45914pt>
 File: graphics/behavior/rule-210/rule-210-slice-4096.jpg Graphic file (type jpg)
 <use graphics/behavior/rule-210/rule-210-slice-4096.jpg>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-slice-4096.jpg  used on input line 638.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-slice-4096.jpg  used on input line 640.
 (pdftex.def)             Requested size: 310.4979pt x 156.42625pt.
  [12 <./graphics/behavior/rule-210/rule-210-time-257.jpg> <./graphics/behavior/rule-210/rule-210-time-513.jpg> <./graphics/behavior/rule-210/rule-210-time-1025.jpg> <./graphics/behavior/rule-210/rule-210-time-2049.jpg> <./graphics/behavior/rule-210/rule-210-time-4097.jpg> <./graphics/behavior/rule-210/rule-210-time-4097-contrast.jpg>]
-<graphics/behavior/rule-210/rule-210-population-plot.pdf, id=523, 361.35pt x 222.8325pt>
+<graphics/behavior/rule-210/rule-210-population-plot.pdf, id=600, 361.35pt x 222.8325pt>
 File: graphics/behavior/rule-210/rule-210-population-plot.pdf Graphic file (type pdf)
 <use graphics/behavior/rule-210/rule-210-population-plot.pdf>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-population-plot.pdf  used on input line 650.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-population-plot.pdf  used on input line 652.
 (pdftex.def)             Requested size: 175.9481pt x 108.50204pt.
-<graphics/behavior/rule-210/rule-210-density-plot.pdf, id=526, 361.35pt x 238.8925pt>
+<graphics/behavior/rule-210/rule-210-density-plot.pdf, id=603, 361.35pt x 238.8925pt>
 File: graphics/behavior/rule-210/rule-210-density-plot.pdf Graphic file (type pdf)
 <use graphics/behavior/rule-210/rule-210-density-plot.pdf>
-Package pdftex.def Info: graphics/behavior/rule-210/rule-210-density-plot.pdf  used on input line 655.
+Package pdftex.def Info: graphics/behavior/rule-210/rule-210-density-plot.pdf  used on input line 657.
 (pdftex.def)             Requested size: 165.59853pt x 109.47997pt.
  [13 <./graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg> <./graphics/behavior/rule-210/rule-210-slice-4096.jpg> <./graphics/behavior/rule-210/rule-210-population-plot.pdf> <./graphics/behavior/rule-210/rule-210-density-plot.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/rule-210/rule-210-density-plot.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/noise/rule-37-time-0-asymmetric.pdf, id=556, 78.2925pt x 216.81pt>
+<graphics/behavior/noise/rule-37-time-0-asymmetric.pdf, id=633, 78.2925pt x 216.81pt>
 File: graphics/behavior/noise/rule-37-time-0-asymmetric.pdf Graphic file (type pdf)
 <use graphics/behavior/noise/rule-37-time-0-asymmetric.pdf>
-Package pdftex.def Info: graphics/behavior/noise/rule-37-time-0-asymmetric.pdf  used on input line 673.
+Package pdftex.def Info: graphics/behavior/noise/rule-37-time-0-asymmetric.pdf  used on input line 675.
 (pdftex.def)             Requested size: 26.90955pt x 74.51833pt.
-<graphics/behavior/noise/rule-37-time-512-asymmetric.pdf, id=557, 578.16pt x 564.1075pt>
+<graphics/behavior/noise/rule-37-time-512-asymmetric.pdf, id=634, 578.16pt x 564.1075pt>
 File: graphics/behavior/noise/rule-37-time-512-asymmetric.pdf Graphic file (type pdf)
 <use graphics/behavior/noise/rule-37-time-512-asymmetric.pdf>
-Package pdftex.def Info: graphics/behavior/noise/rule-37-time-512-asymmetric.pdf  used on input line 678.
+Package pdftex.def Info: graphics/behavior/noise/rule-37-time-512-asymmetric.pdf  used on input line 680.
 (pdftex.def)             Requested size: 207.0021pt x 201.96815pt.
-<graphics/behavior/textures/rule-204-time-32-noise.pdf, id=558, 416.55624pt x 409.53pt>
-File: graphics/behavior/textures/rule-204-time-32-noise.pdf Graphic file (type pdf)
-<use graphics/behavior/textures/rule-204-time-32-noise.pdf>
-Package pdftex.def Info: graphics/behavior/textures/rule-204-time-32-noise.pdf  used on input line 695.
-(pdftex.def)             Requested size: 110.40253pt x 108.53743pt.
-<graphics/behavior/textures/rule-108-time-512-noise.pdf, id=559, 578.16pt x 566.115pt>
-File: graphics/behavior/textures/rule-108-time-512-noise.pdf Graphic file (type pdf)
-<use graphics/behavior/textures/rule-108-time-512-noise.pdf>
-Package pdftex.def Info: graphics/behavior/textures/rule-108-time-512-noise.pdf  used on input line 701.
-(pdftex.def)             Requested size: 110.40253pt x 108.09853pt.
-<graphics/behavior/textures/rule-100-time-64-noise.pdf, id=560, 416.55624pt x 406.51875pt>
+<graphics/behavior/textures/rule-100-time-64-noise.pdf, id=635, 416.55624pt x 406.51875pt>
 File: graphics/behavior/textures/rule-100-time-64-noise.pdf Graphic file (type pdf)
 <use graphics/behavior/textures/rule-100-time-64-noise.pdf>
-Package pdftex.def Info: graphics/behavior/textures/rule-100-time-64-noise.pdf  used on input line 707.
+Package pdftex.def Info: graphics/behavior/textures/rule-100-time-64-noise.pdf  used on input line 697.
 (pdftex.def)             Requested size: 110.40253pt x 107.73935pt.
+<graphics/behavior/textures/rule-108-time-512-noise.pdf, id=636, 578.16pt x 566.115pt>
+File: graphics/behavior/textures/rule-108-time-512-noise.pdf Graphic file (type pdf)
+<use graphics/behavior/textures/rule-108-time-512-noise.pdf>
+Package pdftex.def Info: graphics/behavior/textures/rule-108-time-512-noise.pdf  used on input line 703.
+(pdftex.def)             Requested size: 110.40253pt x 108.09853pt.
+<graphics/behavior/textures/rule-204-time-32-noise.pdf, id=637, 416.55624pt x 409.53pt>
+File: graphics/behavior/textures/rule-204-time-32-noise.pdf Graphic file (type pdf)
+<use graphics/behavior/textures/rule-204-time-32-noise.pdf>
+Package pdftex.def Info: graphics/behavior/textures/rule-204-time-32-noise.pdf  used on input line 709.
+(pdftex.def)             Requested size: 110.40253pt x 108.53743pt.
  [14 <./graphics/behavior/noise/rule-37-time-0-asymmetric.pdf> <./graphics/behavior/noise/rule-37-time-512-asymmetric.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/noise/rule-37-time-512-asymmetric.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./graphics/behavior/textures/rule-204-time-32-noise.pdf
-
-pdfTeX warning: pdflatex (file ./graphics/behavior/textures/rule-204-time-32-noise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./graphics/behavior/textures/rule-108-time-512-noise.pdf
-
-pdfTeX warning: pdflatex (file ./graphics/behavior/textures/rule-108-time-512-noise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./graphics/behavior/textures/rule-100-time-64-noise.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/textures/rule-100-time-64-noise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./graphics/behavior/textures/rule-108-time-512-noise.pdf
+
+pdfTeX warning: pdflatex (file ./graphics/behavior/textures/rule-108-time-512-noise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./graphics/behavior/textures/rule-204-time-32-noise.pdf
+
+pdfTeX warning: pdflatex (file ./graphics/behavior/textures/rule-204-time-32-noise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<graphics/behavior/boring-rules/rule-240.pdf, id=576, 513.92pt x 158.5925pt>
+<graphics/behavior/boring-rules/rule-240.pdf, id=653, 513.92pt x 158.5925pt>
 File: graphics/behavior/boring-rules/rule-240.pdf Graphic file (type pdf)
 <use graphics/behavior/boring-rules/rule-240.pdf>
-Package pdftex.def Info: graphics/behavior/boring-rules/rule-240.pdf  used on input line 721.
+Package pdftex.def Info: graphics/behavior/boring-rules/rule-240.pdf  used on input line 723.
 (pdftex.def)             Requested size: 172.5pt x 53.23346pt.
-<graphics/behavior/boring-rules/rule-15.pdf, id=577, 513.92pt x 158.5925pt>
+<graphics/behavior/boring-rules/rule-15.pdf, id=654, 513.92pt x 158.5925pt>
 File: graphics/behavior/boring-rules/rule-15.pdf Graphic file (type pdf)
 <use graphics/behavior/boring-rules/rule-15.pdf>
-Package pdftex.def Info: graphics/behavior/boring-rules/rule-15.pdf  used on input line 729.
+Package pdftex.def Info: graphics/behavior/boring-rules/rule-15.pdf  used on input line 731.
 (pdftex.def)             Requested size: 172.5pt x 53.23346pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
-<graphics/behavior/twins/rule-214-OneAlive.jpg, id=578, 55.50336pt x 55.50336pt>
+<graphics/behavior/twins/rule-214-OneAlive.jpg, id=655, 55.50336pt x 55.50336pt>
 File: graphics/behavior/twins/rule-214-OneAlive.jpg Graphic file (type jpg)
 <use graphics/behavior/twins/rule-214-OneAlive.jpg>
-Package pdftex.def Info: graphics/behavior/twins/rule-214-OneAlive.jpg  used on input line 750.
+Package pdftex.def Info: graphics/behavior/twins/rule-214-OneAlive.jpg  used on input line 752.
 (pdftex.def)             Requested size: 165.59853pt x 165.60765pt.
-<graphics/behavior/twins/rule-148-OneDead.jpg, id=579, 55.50336pt x 55.50336pt>
+<graphics/behavior/twins/rule-148-OneDead.jpg, id=656, 55.50336pt x 55.50336pt>
 File: graphics/behavior/twins/rule-148-OneDead.jpg Graphic file (type jpg)
 <use graphics/behavior/twins/rule-148-OneDead.jpg>
-Package pdftex.def Info: graphics/behavior/twins/rule-148-OneDead.jpg  used on input line 757.
+Package pdftex.def Info: graphics/behavior/twins/rule-148-OneDead.jpg  used on input line 759.
 (pdftex.def)             Requested size: 165.59853pt x 165.60765pt.
 [15 <./graphics/behavior/boring-rules/rule-240.pdf> <./graphics/behavior/boring-rules/rule-15.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/behavior/boring-rules/rule-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./graphics/behavior/twins/rule-214-OneAlive.jpg> <./graphics/behavior/twins/rule-148-OneDead.jpg>]
-<graphics/implementation/cell-ordering.pdf, id=761, 358.33875pt x 410.53375pt>
+<graphics/implementation/cell-ordering.pdf, id=839, 358.33875pt x 410.53375pt>
 File: graphics/implementation/cell-ordering.pdf Graphic file (type pdf)
 <use graphics/implementation/cell-ordering.pdf>
-Package pdftex.def Info: graphics/implementation/cell-ordering.pdf  used on input line 885.
+Package pdftex.def Info: graphics/implementation/cell-ordering.pdf  used on input line 887.
 (pdftex.def)             Requested size: 127.64832pt x 146.2385pt.
  [16 <./graphics/implementation/cell-ordering.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 988--989
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
 
  []
 
-<graphics/implementation/half-matrix.pdf, id=781, 602.25pt x 367.3725pt>
+<graphics/implementation/half-matrix.pdf, id=859, 602.25pt x 367.3725pt>
 File: graphics/implementation/half-matrix.pdf Graphic file (type pdf)
 <use graphics/implementation/half-matrix.pdf>
-Package pdftex.def Info: graphics/implementation/half-matrix.pdf  used on input line 997.
+Package pdftex.def Info: graphics/implementation/half-matrix.pdf  used on input line 999.
 (pdftex.def)             Requested size: 85.35826pt x 52.06523pt.
-<graphics/implementation/full-matrix.pdf, id=782, 602.25pt x 601.24625pt>
+<graphics/implementation/full-matrix.pdf, id=860, 602.25pt x 601.24625pt>
 File: graphics/implementation/full-matrix.pdf Graphic file (type pdf)
 <use graphics/implementation/full-matrix.pdf>
-Package pdftex.def Info: graphics/implementation/full-matrix.pdf  used on input line 1002.
+Package pdftex.def Info: graphics/implementation/full-matrix.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 85.35826pt x 85.21059pt.
 [17 <./graphics/implementation/half-matrix.pdf> <./graphics/implementation/full-matrix.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/implementation/full-matrix.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (13.75746pt too wide) in paragraph at lines 1020--1021
+Overfull \hbox (13.75746pt too wide) in paragraph at lines 1022--1023
 []\OT1/cmr/m/n/9 First, a layer is added with the same state as the last ver-tex (both the grid/adjacency
  []
 
@@ -1877,91 +1877,91 @@ Overfull \hbox (13.75746pt too wide) in paragraph at lines 1020--1021
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<graphics/implementation/triangle-left-purple.pdf, id=812, 45.16875pt x 45.16875pt>
+<graphics/implementation/triangle-left-purple.pdf, id=889, 45.16875pt x 45.16875pt>
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
-(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
-File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
-<use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
-(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
-<graphics/implementation/triangle-right-purple.pdf, id=813, 45.16875pt x 45.16875pt>
-File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
-<use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
-(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
-File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
-<use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
-(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
-File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
-<use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
+(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
+<graphics/implementation/triangle-right-purple.pdf, id=890, 45.16875pt x 45.16875pt>
+File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
+<use graphics/implementation/triangle-right-purple.pdf>
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
+(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
+File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
+<use graphics/implementation/triangle-right-purple.pdf>
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
+(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
+File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
+<use graphics/implementation/triangle-right-purple.pdf>
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
+(pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
+File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
+<use graphics/implementation/triangle-left-purple.pdf>
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 > Step: build the whole table.
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-left-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-left-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-left-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
 File: graphics/implementation/triangle-right-purple.pdf Graphic file (type pdf)
 <use graphics/implementation/triangle-right-purple.pdf>
-Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1097.
+Package pdftex.def Info: graphics/implementation/triangle-right-purple.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 20.00003pt x 19.99974pt.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 1103.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 1105.
  [19 <./graphics/implementation/triangle-left-purple.pdf> <./graphics/implementation/triangle-right-purple.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/implementation/triangle-right-purple.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
 (./main.bbl [20]) [21] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 533F7C7EEBEAB0EED44C6B37A5D800E3;2324.
+(rerunfilecheck)             Checksum: 886A0F51F217F23FFD1F133B4BEDE454;2324.
  ) 
 Here is how much of TeX's memory you used:
  22091 strings out of 478268
  432274 string characters out of 5846347
- 742063 words of memory out of 5000000
+ 742040 words of memory out of 5000000
  39756 multiletter control sequences out of 15000+600000
  484938 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,98p,971b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on main.pdf (21 pages, 34933606 bytes).
+Output written on main.pdf (21 pages, 34783562 bytes).
 PDF statistics:
- 1011 PDF objects out of 1200 (max. 8388607)
- 702 compressed objects within 8 object streams
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 753 compressed objects within 8 object streams
  128 named destinations out of 1000 (max. 500000)
  666 words of extra memory for PDF output out of 10000 (max. 10000000)
 

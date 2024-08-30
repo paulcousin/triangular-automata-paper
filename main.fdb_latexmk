@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1724506162 "main.aux" "main.bbl" "main" 1724506169
+["bibtex main"] 1725007642 "main.aux" "main.bbl" "main" 1725007650
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1724506168 22661 04e2038eaced3027f36caace55a61e75 "pdflatex"
-  "refs.bib" 1714208833 10797 50341ea88c7a36d28db20657795504c7 ""
+  "main.aux" 1725007649 22661 e982087644816f9217eb67b950df3c6c "pdflatex"
+  "main.bib" 1714208833 10797 50341ea88c7a36d28db20657795504c7 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1724506163 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1724506169
-  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1724506155 49559 028dc9ae84293b53ac51b0f9aa580611 ""
+["pdflatex"] 1725007643 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1725007650
+  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1725007626 49570 e0181284031ff0eaf766e0490d7d9bd6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -227,7 +227,7 @@
   "graphics/behavior/noise/rule-37-time-512-asymmetric.pdf" 1714200534 566371 09f2db71296ef0b15ac907daa358ed57 ""
   "graphics/behavior/rule-210/rule-210-density-plot.pdf" 1724504280 601586 97a0c7160ceb65ec309c9e775e0d7bc4 ""
   "graphics/behavior/rule-210/rule-210-population-plot.pdf" 1724504302 605400 071463ef06ddf289c883ae025f5b5306 ""
-  "graphics/behavior/rule-210/rule-210-slice-4096.jpg" 1724496449 3094402 ec57e6918169b502699a3ca61af8c2aa ""
+  "graphics/behavior/rule-210/rule-210-slice-4096.jpg" 1724534067 2939526 251b2294aad65eaf12f0deee66130c2c ""
   "graphics/behavior/rule-210/rule-210-time-1025.jpg" 1714637348 334025 88c079df66ef4f55e0dd43c7b01e780b ""
   "graphics/behavior/rule-210/rule-210-time-2048-close-up.jpg" 1714849541 3589037 c435784167a7ee98b3c207283c3fa5f0 ""
   "graphics/behavior/rule-210/rule-210-time-2049.jpg" 1714637743 222100 9cabfe2c668226f18add0f1bb2f5e718 ""
@@ -280,12 +280,12 @@
   "graphics/introduction/grid.pdf" 1714200534 1923 0a025a868b71ce59cf91b9c5ee2612e7 ""
   "graphics/introduction/layers.pdf" 1714200534 14659 2e711059579428c141115a7bc877eab1 ""
   "graphics/introduction/purple.pdf" 1714200534 1018 1290266bf44846af980136ffa566d601 ""
-  "graphics/introduction/rule-plot-181.pdf" 1714200534 6102 17ea873cfbaa1b32daf76350f69059cb ""
+  "graphics/introduction/rule-plot-210.pdf" 1724580046 14734 6a580a789605fee0d59922344a22384c ""
   "graphics/introduction/white.pdf" 1714200534 1052 c5373706cc11b34cd0c753aefd2bd146 ""
-  "main.aux" 1724506168 22661 04e2038eaced3027f36caace55a61e75 "pdflatex"
-  "main.bbl" 1724506163 6510 c61615c91af5d7bc79736e774344ff65 "bibtex main"
-  "main.out" 1724506168 2324 533f7c7eebeab0eed44c6b37a5d800e3 "pdflatex"
-  "main.tex" 1724506155 49559 028dc9ae84293b53ac51b0f9aa580611 ""
+  "main.aux" 1725007649 22661 e982087644816f9217eb67b950df3c6c "pdflatex"
+  "main.bbl" 1725007643 6510 c61615c91af5d7bc79736e774344ff65 "bibtex main"
+  "main.out" 1725007649 2324 886a0f51f217f23ffd1f133b4bede454 "pdflatex"
+  "main.tex" 1725007626 49570 e0181284031ff0eaf766e0490d7d9bd6 ""
   (generated)
   "main.aux"
   "main.log"
