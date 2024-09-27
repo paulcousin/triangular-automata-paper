@@ -1058,11 +1058,11 @@ INPUT ./graphics/behavior/chaos/chaos-2-2.pdf
 INPUT graphics/behavior/chaos/chaos-2-2.pdf
 INPUT ./graphics/behavior/chaos/chaos-2-2.pdf
 INPUT ./graphics/behavior/chaos/chaos-2-2.pdf
-INPUT ./graphics/behavior/chaos/rule-53.pdf
-INPUT ./graphics/behavior/chaos/rule-53.pdf
-INPUT graphics/behavior/chaos/rule-53.pdf
-INPUT ./graphics/behavior/chaos/rule-53.pdf
-INPUT ./graphics/behavior/chaos/rule-53.pdf
+INPUT ./graphics/behavior/gliders/glider.pdf
+INPUT ./graphics/behavior/gliders/glider.pdf
+INPUT graphics/behavior/gliders/glider.pdf
+INPUT ./graphics/behavior/gliders/glider.pdf
+INPUT ./graphics/behavior/gliders/glider.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

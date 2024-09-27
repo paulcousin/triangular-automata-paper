@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1725994135 "main.aux" "main.bbl" "main" 1725994142
+["bibtex main"] 1727435430 "main.aux" "main.bbl" "main" 1727435441
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1725994141 22659 60cde76953636696cfdca31eb45be63d "pdflatex"
+  "main.aux" 1727435440 22851 7194600e83b09a0f0198e716d8642704 "pdflatex"
   "main.bib" 1714208833 10797 50341ea88c7a36d28db20657795504c7 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1725994136 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1725994142
-  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1725972534 49583 cf1525dd196693d8b7687268c838a08e ""
+["pdflatex"] 1727435431 "/Users/paul/GitHub/triangular-automata-paper/main.tex" "main.pdf" "main" 1727435441
+  "/Users/paul/GitHub/triangular-automata-paper/main.tex" 1727435417 49869 53ce974bbdb5db50633922ec9f03b16f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -216,13 +216,13 @@
   "graphics/behavior/chaos/chaos-1-2.pdf" 1714200534 349044 e7e2a056a91936f7c01f7ad1cdd61983 ""
   "graphics/behavior/chaos/chaos-2-1.pdf" 1714200534 41622 b803f7ebce8d0582995ed9bc162d25cc ""
   "graphics/behavior/chaos/chaos-2-2.pdf" 1714200534 353360 e3861f9c8535f12f67163dec8402543c ""
-  "graphics/behavior/chaos/rule-53.pdf" 1714200534 14720 ea8fcadce4c86e85f48b2426f797cd04 ""
   "graphics/behavior/elementary-cellular-automata/ETA-to-ECA.pdf" 1724244142 14098 0beb6c093390124a9eaf326e994cfca3 ""
   "graphics/behavior/elementary-cellular-automata/rule-97-slice-plot-128.png" 1725972495 18989 2bab6a31f7161528c0169d7637d17bda ""
   "graphics/behavior/elementary-cellular-automata/rule-97-time-128.pdf" 1724182395 142117 5f8d6c41cb1da446a953e2607475ba85 ""
   "graphics/behavior/fractals/rule-106-time-510-OneAlive.pdf" 1724503256 1608808 7df7ba7a404eb3929f3301dc4ec7b5e8 ""
   "graphics/behavior/fractals/rule-50-time-352-OneAlive.pdf" 1724503852 902990 6c3d5d2539b2aeb3eff8bc71b424aacb ""
   "graphics/behavior/fractals/rule-65-time-512-OneAlive.pdf" 1724503693 1902335 92185932b47ab34aaa182c716fb69bed ""
+  "graphics/behavior/gliders/glider.pdf" 1727435135 1790 a8b4502afaf299489ad3a88bf663305b ""
   "graphics/behavior/noise/rule-37-time-0-asymmetric.pdf" 1714200534 1081 97b6e5c9969567ab869f5afb75d4eba3 ""
   "graphics/behavior/noise/rule-37-time-512-asymmetric.pdf" 1714200534 566371 09f2db71296ef0b15ac907daa358ed57 ""
   "graphics/behavior/rule-210/rule-210-density-plot.pdf" 1724504280 601586 97a0c7160ceb65ec309c9e775e0d7bc4 ""
@@ -282,10 +282,10 @@
   "graphics/introduction/purple.pdf" 1714200534 1018 1290266bf44846af980136ffa566d601 ""
   "graphics/introduction/rule-plot-210.pdf" 1724580046 14734 6a580a789605fee0d59922344a22384c ""
   "graphics/introduction/white.pdf" 1714200534 1052 c5373706cc11b34cd0c753aefd2bd146 ""
-  "main.aux" 1725994141 22659 60cde76953636696cfdca31eb45be63d "pdflatex"
-  "main.bbl" 1725994136 6510 c61615c91af5d7bc79736e774344ff65 "bibtex main"
-  "main.out" 1725994141 2324 886a0f51f217f23ffd1f133b4bede454 "pdflatex"
-  "main.tex" 1725972534 49583 cf1525dd196693d8b7687268c838a08e ""
+  "main.aux" 1727435440 22851 7194600e83b09a0f0198e716d8642704 "pdflatex"
+  "main.bbl" 1727435431 6510 c61615c91af5d7bc79736e774344ff65 "bibtex main"
+  "main.out" 1727435440 2418 6c527f1bbda9a2153e90c978883f5624 "pdflatex"
+  "main.tex" 1727435417 49869 53ce974bbdb5db50633922ec9f03b16f ""
   (generated)
   "main.aux"
   "main.log"
